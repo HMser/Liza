@@ -17,125 +17,125 @@ Asena.addCommand({pattern: 'menu', fromMe: false, desc: Lang.WP}, (async (messag
 
     var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
 
-    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `⛦━━━━━✨️Ameer Suhail✨️━━━━━⛦
+    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `⛦━━━━━✨️ᴡͥᴀᴠᴇsᴏͭɴᴀιʀᷤ ⫹нᷟмͤ⫺✩✨️━━━━━⛦
 
 
-𝐇𝐞𝐥𝐥𝐨👋 𝐈 𝐚𝐦 𝐚 Ameer Suhail 𝐛𝐨𝐭.
-            *Pikachu*
+𝐇𝐞𝐥𝐥𝐨👋 𝐈 𝐚𝐦 𝐚 HM sᴇʀ 𝐛𝐨𝐭.
+            *Lɪᴢᴀ Mᴡᴏʟ*
 
 ■□■□■□■□■□■□■□■□■□■□
 ♕ *𝙈𝙚𝙙𝙞𝙖 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨* ♕
 
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -song <text>
-🍙𝙐𝙨𝙚➜ Downloads song for you.
-⚠️.song  baby love
+📌𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -sᴏɴɢ <ᴛᴇxᴛ>
+📍𝙐𝙨𝙚➜ Dᴏᴡɴʟᴏᴀᴅs sᴏɴɢ ғᴏʀ ʏᴏᴜ.
+⚠️.sᴏɴɢ  ʙᴀʙʏ ʟᴏᴠᴇ
 
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -video <yt link>
-🍙𝙐𝙨𝙚➜ Downloads video from YouTube link.
+📌𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -ᴠɪᴅᴇᴏ <ʏᴛ ʟɪɴᴋ>
+📍𝙐𝙨𝙚➜ Dᴏᴡɴʟᴏᴀᴅs ᴠɪᴅᴇᴏ ғʀᴏᴍ YᴏᴜTᴜʙᴇ ʟɪɴᴋ.
 
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜  -insta <link>
-🍙𝙐𝙨𝙚➜   Downloads content from instagram.
+📌𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜  -ɪɴsᴛᴀ <ʟɪɴᴋ>
+📍𝙐𝙨𝙚➜   Dᴏᴡɴʟᴏᴀᴅs ᴄᴏɴᴛᴇɴᴛ ғʀᴏᴍ ɪɴsᴛᴀɢʀᴀᴍ.
 
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜  -yt<text>
-🍙𝙐𝙨𝙚➜   Gives you YT links.
+📌𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜  -ʏᴛ<ᴛᴇxᴛ>
+📍𝙐𝙨𝙚➜   Gɪᴠᴇs ʏᴏᴜ YT ʟɪɴᴋs.
 
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜  -show <show name>
-🍙𝙐𝙨𝙚➜   Get info related to tv series and shows.
+📌𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜  -sʜᴏᴡ <sʜᴏᴡ ɴᴀᴍᴇ>
+📍𝙐𝙨𝙚➜   Gᴇᴛ ɪɴғᴏ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ ᴛᴠ sᴇʀɪᴇs ᴀɴᴅ sʜᴏᴡs.
 
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -gif 
-🍙𝙐𝙨𝙚➜ Converts video to gif.
+📌𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -ɢɪғ 
+📍𝙐𝙨𝙚➜ Cᴏɴᴠᴇʀᴛs ᴠɪᴅᴇᴏ ᴛᴏ ɢɪғ.
 
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -tomp3 
-🍙𝙐𝙨𝙚➜ Converts video into audio.
+📌𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -ᴛᴏᴍᴘ3 
+📍𝙐𝙨𝙚➜ Cᴏɴᴠᴇʀᴛs ᴠɪᴅᴇᴏ ɪɴᴛᴏ ᴀᴜᴅɪᴏ.
 
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -say <text>
-🍙𝙐𝙨𝙚➜ Converts text into voice.
+📌𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -sᴀʏ <ᴛᴇxᴛ>
+📍𝙐𝙨𝙚➜ Cᴏɴᴠᴇʀᴛs ᴛᴇxᴛ ɪɴᴛᴏ ᴠᴏɪᴄᴇ.
 
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -img <text>
-🍙𝙐𝙨𝙚➜ It sends image from google.
+📌𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -ɪᴍɢ <ᴛᴇxᴛ>
+📍𝙐𝙨𝙚➜ Iᴛ sᴇɴᴅs ɪᴍᴀɢᴇ ғʀᴏᴍ ɢᴏᴏɢʟᴇ.
 
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -trt <language code>
-🍙𝙐𝙨𝙚➜ Translate the text you tag.
+📌𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -ᴛʀᴛ <ʟᴀɴɢᴜᴀɢᴇ ᴄᴏᴅᴇ>
+📍𝙐𝙨𝙚➜ Tʀᴀɴsʟᴀᴛᴇ ᴛʜᴇ ᴛᴇxᴛ ʏᴏᴜ ᴛᴀɢ.
 
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -wiki <text>
-🍙𝙐𝙨𝙚➜ It sends Wikipedia result.
+📌𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -ᴡɪᴋɪ <ᴛᴇxᴛ>
+📍𝙐𝙨𝙚➜ Iᴛ sᴇɴᴅs Wɪᴋɪᴘᴇᴅɪᴀ ʀᴇsᴜʟᴛ.
 
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -lyric <text>
-🍙𝙐𝙨𝙚➜ Finds the lyrics of the song.
+📌𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -ʟʏʀɪᴄ <ᴛᴇxᴛ>
+📍𝙐𝙨𝙚➜ Fɪɴᴅs ᴛʜᴇ ʟʏʀɪᴄs ᴏғ ᴛʜᴇ sᴏɴɢ.
 
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -covid <country code>
-🍙𝙐𝙨𝙚➜ Send the covid stats of your country.
+📌𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -ᴄᴏᴠɪᴅ <ᴄᴏᴜɴᴛʀʏ ᴄᴏᴅᴇ>
+📍𝙐𝙨𝙚➜ Sᴇɴᴅ ᴛʜᴇ ᴄᴏᴠɪᴅ sᴛᴀᴛs ᴏғ ʏᴏᴜʀ ᴄᴏᴜɴᴛʀʏ.
 
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -weather <city>
-🍙𝙐𝙨𝙚➜ Tells you about the weather of your place.
+📌𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -ᴡᴇᴀᴛʜᴇʀ <ᴄɪᴛʏ>
+📍𝙐𝙨𝙚➜ Tᴇʟʟs ʏᴏᴜ ᴀʙᴏᴜᴛ ᴛʜᴇ ᴡᴇᴀᴛʜᴇʀ ᴏғ ʏᴏᴜʀ ᴘʟᴀᴄᴇ.
 
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -removebg 
-🍙𝙐𝙨𝙚➜ Removes the background of tge image.
+📌𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -ʀᴇᴍᴏᴠᴇʙɢ 
+📍𝙐𝙨𝙚➜ Rᴇᴍᴏᴠᴇs ᴛʜᴇ ʙᴀᴄᴋɢʀᴏᴜɴᴅ ᴏғ ᴛɢᴇ ɪᴍᴀɢᴇ.
 
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -ocr
-🍙𝙐𝙨𝙚➜ Finds the text written on the image.
+📌𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -ᴏᴄʀ
+📍𝙐𝙨𝙚➜ Fɪɴᴅs ᴛʜᴇ ᴛᴇxᴛ ᴡʀɪᴛᴛᴇɴ ᴏɴ ᴛʜᴇ ɪᴍᴀɢᴇ.
 
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -wallpaper
-🍙𝙐𝙨𝙚➜ It sends you random wallpaper.
+📌𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -ᴡᴀʟʟᴘᴀᴘᴇʀ
+📍𝙐𝙨𝙚➜ Iᴛ sᴇɴᴅs ʏᴏᴜ ʀᴀɴᴅᴏᴍ ᴡᴀʟʟᴘᴀᴘᴇʀ.
 
-■□■□■□■□■□Pikachu■□■□■□■□■□
+■□■□■□■□■□Lɪᴢᴀ Mᴡᴏʟ■□■□■□■□■□
 ♟ *𝙁𝙪𝙣 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨* ♟
 
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -joke 
-🍙𝙐𝙨𝙚➜ It sends a random joke.
+📌𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -ᴊᴏᴋᴇ 
+📍𝙐𝙨𝙚➜ Iᴛ sᴇɴᴅs ᴀ ʀᴀɴᴅᴏᴍ ᴊᴏᴋᴇ.
  
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -meme <text>
-🍙𝙐𝙨𝙚➜ Cations the image into a meme.
+📌𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -ᴍᴇᴍᴇ <ᴛᴇxᴛ>
+📍𝙐𝙨𝙚➜ Cᴀᴛɪᴏɴs ᴛʜᴇ ɪᴍᴀɢᴇ ɪɴᴛᴏ ᴀ ᴍᴇᴍᴇ.
 
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -quote 
-🍙𝙐𝙨𝙚➜ It sends a random quote.
+📌𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -ϙᴜᴏᴛᴇ 
+📍𝙐𝙨𝙚➜ Iᴛ sᴇɴᴅs ᴀ ʀᴀɴᴅᴏᴍ ϙᴜᴏᴛᴇ.
 
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -ss <website link>
-🍙𝙐𝙨𝙚➜ It sends the screenshot of the website.
+📌𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -ss <ᴡᴇʙsɪᴛᴇ ʟɪɴᴋ>
+📍𝙐𝙨𝙚➜ Iᴛ sᴇɴᴅs ᴛʜᴇ sᴄʀᴇᴇɴsʜᴏᴛ ᴏғ ᴛʜᴇ ᴡᴇʙsɪᴛᴇ.
 
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -changesay <text>
-🍙𝙐𝙨𝙚➜ Converts text into changesay meme image.
+📌𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -ᴄʜᴀɴɢᴇsᴀʏ <ᴛᴇxᴛ>
+📍𝙐𝙨𝙚➜ Cᴏɴᴠᴇʀᴛs ᴛᴇxᴛ ɪɴᴛᴏ ᴄʜᴀɴɢᴇsᴀʏ ᴍᴇᴍᴇ ɪᴍᴀɢᴇ.
 
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -trumpsay
-🍙𝙐𝙨𝙚➜ Convert text into Trump's tweet.
+📌𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -ᴛʀᴜᴍᴘsᴀʏ
+📍𝙐𝙨𝙚➜ Cᴏɴᴠᴇʀᴛ ᴛᴇxᴛ ɪɴᴛᴏ Tʀᴜᴍᴘ's ᴛᴡᴇᴇᴛ.
 
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -compliment 
-🍙𝙐𝙨𝙚➜ Gives you a compliment.
+📌𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -ᴄᴏᴍᴘʟɪᴍᴇɴᴛ 
+📍𝙐𝙨𝙚➜ Gɪᴠᴇs ʏᴏᴜ ᴀ ᴄᴏᴍᴘʟɪᴍᴇɴᴛ.
 
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜  -bitly <link>
-🍙𝙐𝙨𝙚➜   Shorten your link.
+📌𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜  -ʙɪᴛʟʏ <ʟɪɴᴋ>
+📍𝙐𝙨𝙚➜   Sʜᴏʀᴛᴇɴ ʏᴏᴜʀ ʟɪɴᴋ.
 
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜  -dict 
-🍙𝙐𝙨𝙚➜   Dictionary [-dict en;anime]
+📌𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜  -ᴅɪᴄᴛ 
+📍𝙐𝙨𝙚➜   Dɪᴄᴛɪᴏɴᴀʀʏ [-ᴅɪᴄᴛ ᴇɴ;ᴀɴɪᴍᴇ]
 
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜  -zodiac <leo> 
-🍙𝙐𝙨𝙚➜   Tells you about your horoscope.
+📌𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜  -ᴢᴏᴅɪᴀᴄ <ʟᴇᴏ> 
+📍𝙐𝙨𝙚➜   Tᴇʟʟs ʏᴏᴜ ᴀʙᴏᴜᴛ ʏᴏᴜʀ ʜᴏʀᴏsᴄᴏᴘᴇ.
 
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜  -qr <text>
-🍙𝙐𝙨𝙚➜   Converts text into qr code.
+📌𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜  -ϙʀ <ᴛᴇxᴛ>
+📍𝙐𝙨𝙚➜   Cᴏɴᴠᴇʀᴛs ᴛᴇxᴛ ɪɴᴛᴏ ϙʀ ᴄᴏᴅᴇ.
 
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜  -movie 
-🍙𝙐𝙨𝙚➜  Gives you info about movie.
-⚠️movie master
+📌𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜  -ᴍᴏᴠɪᴇ 
+📍𝙐𝙨𝙚➜  Gɪᴠᴇs ʏᴏᴜ ɪɴғᴏ ᴀʙᴏᴜᴛ ᴍᴏᴠɪᴇ.
+⚠️ᴍᴏᴠɪᴇ ᴍᴀsᴛᴇʀ
 
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜  -anime <text>
-🍙𝙐𝙨𝙚➜  Gives you info about anime.
-⚠️anime pikachu
-■□■□■□■□■Pikachu□■□■□■□■□■□
+📌𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜  -ᴀɴɪᴍᴇ <ᴛᴇxᴛ>
+📍𝙐𝙨𝙚➜  Gɪᴠᴇs ʏᴏᴜ ɪɴғᴏ ᴀʙᴏᴜᴛ ᴀɴɪᴍᴇ.
+⚠️ᴀɴɪᴍᴇ Lɪᴢᴀ Mᴡᴏʟ
+■□■□■□■□■Lɪᴢᴀ Mᴡᴏʟ□■□■□■□■□■□
 ♝ *𝙎𝙩𝙞𝙘𝙠𝙚𝙧 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨* ♝
 
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -sticker 
-🍙𝙐𝙨𝙚➜ Converts img/gif into a sticker.
+📌𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -sᴛɪᴄᴋᴇʀ 
+📍𝙐𝙨𝙚➜ Cᴏɴᴠᴇʀᴛs ɪᴍɢ/ɢɪғ ɪɴᴛᴏ ᴀ sᴛɪᴄᴋᴇʀ.
 
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -photo 
-🍙𝙐𝙨𝙚➜ Converts sticker into image.
+📌𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -ᴘʜᴏᴛᴏ 
+📍𝙐𝙨𝙚➜ Cᴏɴᴠᴇʀᴛs sᴛɪᴄᴋᴇʀ ɪɴᴛᴏ ɪᴍᴀɢᴇ.
 
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -attp <text>
-🍙𝙐𝙨𝙚➜ Converts text into glowing sticker.
-⚠️ex  attp pikachu
+📌𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -ᴀᴛᴛᴘ <ᴛᴇxᴛ>
+📍𝙐𝙨𝙚➜ Cᴏɴᴠᴇʀᴛs ᴛᴇxᴛ ɪɴᴛᴏ ɢʟᴏᴡɪɴɢ sᴛɪᴄᴋᴇʀ.
+⚠️ᴇx  ᴀᴛᴛᴘ Lɪᴢᴀ Mᴡᴏʟ
 ■□■□■□■□■□■□■□■□■□■□
-═════💢Pikachu💢═════
-▣▣▣▣▣▣▣▣▣ameersuhail▣▣▣▣▣▣▣▣▣▣▣
+═════💢Lɪᴢᴀ Mᴡᴏʟ💢═════
+▣▣▣▣▣▣▣▣▣Cʀᴇᴀᴛᴇᴅ Bʏ HM▣▣▣▣▣▣▣▣
 
 `}) 
 
