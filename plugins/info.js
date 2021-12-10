@@ -21,20 +21,20 @@ Asena.addCommand({pattern: 'info', fromMe: false, desc: 'Shows bot information a
 
     var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
 
-    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `` + Config.BOTSK + ` *BOT CREATED BY* ` + Config.PLK +`
+    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `Lɪᴢᴀ Mᴡᴏʟ Mᴏᴅɪғɪᴇᴅ Bʏ HM 
     
-    ----- ` + Config.BOTSK + ` -----
+    ----- L҉I҉Z҉A҉ M҉W҉O҉L҉ -----
     
 ╭─➤ 𝗜𝗡𝗙𝗢 𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥 »
-│❖ *ᴀᴜᴛʜᴏʀ* : ` + Config.PLK + `
+│❖ *ᴀᴜᴛʜᴏʀ* : HM Sᴇʀ
 │❖ *ᴋᴇʀɴᴇʟ* : ʟɪɴᴜx
-│❖ *ɪɴꜱᴛᴀɢʀᴀᴍ* : ` + Config.SLINK + `
-│❖ *ᴡʜᴀᴛꜱᴀᴘᴘ* : ᴄᴏᴍɪɴɢ ꜱᴏᴏɴ...
+│❖ *ɪɴꜱᴛᴀɢʀᴀᴍ* : ᴄᴏᴍɪɴɢ ꜱᴏᴏɴ...
+│❖ *ᴡʜᴀᴛꜱᴀᴘᴘ* : wa.me/916235199845
 ╰────────────────❋ཻུ۪۪➹
 ⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘
-               ` + Config.BOTSK + `
+               Lɪᴢᴀ Mᴡᴏʟ
     
-    ⚡ ` + Config.AFN + ` ⚡
+    ⚡ Mᴏᴅɪғɪᴇᴅ Bʏ HM ⚡
 `}) 
 
 }));
