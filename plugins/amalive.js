@@ -82,7 +82,7 @@ r_text[26] = "\n Iam Alive \n\n Iᴛ's Mᴇ Lɪᴢᴀ Mᴡᴏʟ 💖";
 r_text[27] = "\n Iam Alive \n\n Iᴛ's Mᴇ Lɪᴢᴀ Mᴡᴏʟ 💖";
 r_text[28] = "\n Iam Alive \n\n Iᴛ's Mᴇ Lɪᴢᴀ Mᴡᴏʟ 💖";
 r_text[29] = "\n Iam Alive \n\n Iᴛ's Mᴇ Lɪᴢᴀ Mᴡᴏʟ 💖";
-r_text[30] = "motivate cheyaan aarkum kayyum ath cheyth kaanikkaaana paad.\n 
+r_text[30] = "motivate cheyaan aarkum kayyum ath cheyth kaanikkaaana paad.\n       -Liza";  
 var i = Math.floor(31*Math.random())
 
 await message.sendMessage(r_text[i]);
