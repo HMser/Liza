@@ -18,7 +18,7 @@ if (Config.WORKTYPE == 'private') {
         }
 
         if (Config.PLK == 'default') {
-            await message.client.sendMessage(message.jid,'Pikachu Bot created by *Ameer Suhail*' , MessageType.text);
+            await message.client.sendMessage(message.jid,'Liza Mwol created by *HM*' , MessageType.text);
         }
         else {
             await message.client.sendMessage(message.jid,Config.PLK + '\n\n---------------------', MessageType.text);
@@ -36,7 +36,7 @@ else if (Config.WORKTYPE == 'public') {
         }
 
         if (Config.PLK == 'default') {
-            await message.client.sendMessage(message.jid,'😜 I’m Hashir, 18 years old\n😌 But call Me HM\n🔭 I’m currently working on Liza Bot\n🌱 I’m currently learning node js\n👯 I’m looking to collaborate on nobody\n💬 Ask me about anything. I dont know anything\n📫 How to reach me: wa.me/916235199845' , MessageType.text);
+            await message.client.sendMessage(message.jid,'Liza Mwol created by *HM*' , MessageType.text);
         }
         else {
             await message.client.sendMessage(message.jid,Config.PLK + '*HE IS MY BOSS*', MessageType.text);
