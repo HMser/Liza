@@ -36,7 +36,7 @@ else if (Config.WORKTYPE == 'public') {
         }
 
         if (Config.PLK == 'default') {
-            await message.client.sendMessage(message.jid,'Liza Mwol Bot created by *HM*' , MessageType.text);
+            await message.client.sendMessage(message.jid,'😜 I’m Hashir, 18 years old\n😌 But call Me HM\n🔭 I’m currently working on Liza Bot\n🌱 I’m currently learning node js\n👯 I’m looking to collaborate on nobody\n💬 Ask me about anything. I don't know anything\n📫 How to reach me: wa.me/6235199845' , MessageType.text);
         }
         else {
             await message.client.sendMessage(message.jid,Config.PLK + '*HE IS MY BOSS*', MessageType.text);
