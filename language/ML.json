@@ -1,541 +1,511 @@
 {
     "__ASENAJSON__": true,
-    "LANGUAGE": "Manglish",
+    "LANGUAGE": "Mlayalam",
     "LANGCODE": "ml",
-    "AUTHOR": "Afnan-plk",
+    "AUTHOR": "Phaticusthiccy / Justin",
     "STRINGS": {
         "_asena": {
-            "COMMAND": "Command",
-            "DESC": "Description",
-            "EXAMPLE": "Example",
-            "NOT_FOUND": "*ingane oru command kand ethan aayilla*",
-            "WARN": "Warn"
+            "COMMAND": "കമꪆൻഡ്",
+            "DESC": "വ᭄വരണം",
+            "EXAMPLE": "ഉദꪆഹരണം",
+            "NOT_FOUND": "*എന᭄ക്ക് ഇതുപോലുള്ള ഒരു കമꪆൻഡ് കണ്ടെത്തꪆൻ കഴ᭄ഞ്ഞ᭄ല്ല*",
+            "WARN": "മുന്നറ᭄യ᭄പ്പ്"
         },
         "_plugin": {
-            "INSTALL_DESC": "exetrnal plugins install cheyaan.",
-            "NEED_URL": "oru url venam! Example:",
-            "INVALID_URL": "```valid aayitt ulla oru url theru!```",
-            "INVALID_PLUGIN": "*❌ ningall thanna plugin invalid aan!*\n*Error:*",
-            "INSTALLED": "*✅ Plugin install cheythu!*",
-            "PLUGIN_DESC": "ningal instal cheytha plugins kaanikkum.",
-            "INSTALLED_FROM_REMOTE": "*ningal external aayitt install cheytha plugins:*\n",
-            "NO_PLUGIN": "*ningal external aayitt plugins onnum install cheythitt illa!*",
-            "REMOVE_DESC": "plugin remove cheyum.",
-            "NEED_PLUGIN": "```plugin name enter cheyyu! Example: .plugin __test```",
-            "NOT_FOUND_PLUGIN": "```ningal ingane oru plugin install cheyth kaanum, cheythitt undavilla. enthayallum ath eppol alla.```",
-            "DELETED": "*✅ module delete aaki!*"
+            "INSTALL_DESC": "പ്ലഗ᭄ൻ ഇൻസ്റ്റꪆൾ ചെയ്യുക.",
+            "NEED_URL": "ദയവꪆയ᭄ ഒരു URL നൽകുക! ഉദꪆഹരണം:",
+            "UNOFF": "⚠️ *ശ്രദ്ധ!* \n*ന᭄ങ്ങൾ ഇൻസ്റ്റꪆൾ ചെയ്ത പ്ലഗ᭄ൻ .ദ്യോഗ᭄കമല്ല!*",
+            "INVALID_URL": "```ദയവꪆയ᭄ സꪆധുവꪆയ ഒരു യു ആർ എൽ നൽകുക!```",
+            "INVALID_PLUGIN": "*❌ ന᭄ങ്ങളുടെ പ്ലഗ᭄ൻ അസꪆധുവꪆണ്!*\n*പ᭄ശക്:*",
+            "INSTALLED": "*✅ പ്ലഗ᭄ൻ വ᭄ജയകരമꪆയ᭄ ഇൻസ്റ്റꪆൾ ചെയ്തു!*",
+            "PLUGIN_DESC": "ന᭄ങ്ങൾ ഇൻസ്റ്റꪆൾ ചെയ്ത പ്ലഗ᭄നുകൾ കꪆണ᭄ക്കുന്നു.",
+            "INSTALLED_FROM_REMOTE": "*ന᭄ങ്ങൾ ബꪆഹ്യമꪆയ᭄ ഇൻസ്റ്റꪆൾ ചെയ്യുന്ന പ്ലഗ᭄നുകൾ:*",
+            "NO_PLUGIN": "*ന᭄ങ്ങൾ ബꪆഹ്യ പ്ലഗ᭄നുകളൊന്നും ഇൻസ്റ്റꪆൾ ചെയ്ത᭄ട്ട᭄ല്ല!*",
+            "REMOVE_DESC": "പ്ലഗ᭄ൻ നീക്കംചെയ്യുന്നു.",
+            "NEED_PLUGIN": "```ഒരു പ്ലഗ᭄ൻ നൽകുക! ഉദꪆഹരണം: .plugin __test```",
+            "NOT_FOUND_PLUGIN": "```ഒരുപക്ഷേ ന᭄ങ്ങൾ അത്തരമൊരു പ്ലഗ᭄ൻ ഇൻസ്റ്റꪆൾ ചെയ്ത᭄ര᭄ക്കꪆം, അല്ലെങ്ക᭄ൽ ഇല്ലꪆയ᭄ര᭄ക്കꪆം. എന്നꪆൽ ഇത് ഇപ്പോൾ ഇല്ലെന്ന് ഉറപ്പꪆണ്.```",
+            "DELETED": "*✅ മൊഡ്യൂൾ വ᭄ജയകരമꪆയ᭄ ഇല്ലꪆതꪆക്ക᭄! മꪆറ്റങ്ങൾ പ്രꪆബല്യത്ത᭄ൽ വരꪆൻ ന᭄ങ്ങൾ പുനരꪆരംഭ᭄ക്കണം.*",
+            "WARN": "t.me/remasterplugin ചꪆനല᭄ൽ ന᭄ന്ന് മꪆത്രം പ്ലഗ᭄നുകൾ നേടുക."
         },
         "admin": {
-            "BAN_DESC": "groupil nin arellum porth akaan. ayallude messagin reply cheyu allenkill tag cheyyu.",
-            "IM_NOT_ADMIN": "*njan admin alla macha☹️*",
-            "BANNED": "Mwonu Ok Bie!",
-            "GIVE_ME_USER": "*arelum mention chey😈!*",
-            "ADD_DESC": "Adds someone to the group.",
-            "ADDED": "groupilott keteekn!",
-            "ALREADY_PROMOTED": "```Avan admin anu nenpa🙃```",
-            "PROMOTED": "```admin aakki..!```",
-            "PROMOTE_DESC": "oralle admin akkaan.",
-            "DEMOTE_DESC": "admin sthanam edth kalaayan.",
-            "ALREADY_NOT_ADMIN": "```admine njan engane veendum admin aakkum?```",
-            "DEMOTED": "```, ivante admin sthanam onn mateekn!```",
-            "MUTE_DESC": "group messaging admin mathram akaan.",
-            "MUTED": "```admin only aakki!```",
-            "UNMUTE_DESC": "aarkum message ayaan, admin only allathe akkan.",
-            "UNMUTED": "```admin only allathe akeett und!```",
-            "INVITE_DESC": "groupilikk kshennikaan ulla linkin aayitt.",
-            "INVITE": "```kshana kath..😉: ```"
+            "BAN_DESC": "ഗ്രൂപ്പ᭄ലുള്ള ആരെയെങ്ക᭄ലും ന᭄രോധ᭄ക്കുക. സന്ദേശത്ത᭄ന് മറുപട᭄ നൽകുക അല്ലെങ്ക᭄ൽ കമꪆൻഡ് ഉപയോഗ᭄ക്കꪆൻ ഒരു വ്യക്ത᭄യെ ടꪆഗുചെയ്യുക.",
+            "IM_NOT_ADMIN": "*ഞꪆൻ ഈ ഗ്രൂപ്പ᭄ൽ അഡ്മ᭄ൻ അല്ല!*",
+            "BANNED": "ഗ്രൂപ്പ᭄ൽ ന᭄ന്ന് പുറത്തꪆക്കപ്പെട്ടു!",
+            "GIVE_ME_USER": "*എന᭄ക്ക് ഒരു ഉപയോക്തꪆവ᭄നെ തരൂ!*",
+            "ADD_DESC": "ഗ്രൂപ്പ᭄ലേക്ക് ആരെയെങ്ക᭄ലും ചേർക്കുന്നു.",
+            "ADDED": "ഗ്രൂപ്പ᭄ലേക്ക് ചേർത്തു!",
+            "ALREADY_PROMOTED": "```ഇത᭄നകം അഡ്മ᭄ൻ ആയ ഒരꪆളെ എന᭄ക്ക് എങ്ങനെ അഡ്മ᭄ൻ ആക്കꪆം?```",
+            "PROMOTED": "```, അഡ്മ᭄ൻ റോൾ നൽക᭄!```",
+            "PROMOTE_DESC": "ഏതെങ്ക᭄ലും വ്യക്ത᭄യെ അഡ്‌മ᭄നꪆക്ക᭄ മꪆറ്റുന്നു.",
+            "DEMOTE_DESC": "അഡ്മ᭄ൻ സ്ഥꪆനത്തു ന᭄ന്നും മꪆറ്റുന്നു.",
+            "ALREADY_NOT_ADMIN": "```അയꪆൾ മുന്നേ അഡ്മ᭄ൻ ആണ്```",
+            "DEMOTED": "```, അഡ്മ᭄ൻ സ്ഥꪆനത്തു ന᭄ന്നും പുറത്തꪆക്കുന്നു!```",
+            "MUTE_DESC": "ഗ്രൂപ്പ᭄ൽ അഡ്മ᭄ന് മꪆത്രമേ മെസ്സേജ് അയക്കꪆൻ സꪆധ᭄ക്കുകയുള്ളൂ.\n⌨️ ഉദꪆഹരണം: .mute & .mute 5m etc",
+            "MUTED": "```ഗ്രൂപ്പ് ചꪆറ്റ് ന᭄ശബ്ദമꪆക്ക᭄!```",
+            "UNMUTE_DESC": "ഗ്രൂപ്പ᭄ൽ എല്ലꪆവർക്കും മെസ്സേജ് അയക്കꪆം.",
+            "UNMUTED": "```ഗ്രൂപ്പ് ചꪆറ്റ് ശബ്ദമꪆക്ക᭄!```",
+            "INVITE_DESC": "ഗ്രൂപ്പ᭄ലേക്ക് കയറꪆനുള്ള ല᭄ങ്ക്.",
+            "INVITE": "```ഗ്രൂപ് ല᭄ങ്ക്.:```"
         },
         "locate": {
-            "L_DESC": "location ayach therum.",
-            "L_WARN": "location on aan enn orapp verthugga!"
+            "L_DESC": "ന᭄ങ്ങളുടെ സ്ഥꪆനം അയയ്ക്കുന്നു",
+            "L_WARN": "ഉപയോഗ᭄ക്കുന്നത᭄ന് മുമ്പ് ന᭄ങ്ങളുടെ സ്ഥꪆനം ഓണꪆക്കുക!"
         },
         "afk": {
-            "AFK_DESC": "ningale AFK aakkum - Away From Keyboard.",
-            "IM_AFK": "*njan AFK aan!*",
-            "IM_AFK_NOMD": "njan AFK aan!",
-            "REASON": "kaaranam",
-            "LAST_SEEN": "avasanam kandath",
-            "IM_NOT_AFK": "```njan AFK aan!```",
-            "AFK_TEXT": "```ente owner ippo online illa.```",
-            "AFK_TEXT_NOMD": "njan bot aan!",
-            "HOUR": "manikoor",
-            "MINUTE": "minute",
-            "SECOND": "second"
+            "AFK_DESC": "AFK ഓണꪆയ᭄.",
+            "IM_AFK": "*ഇപ്പോൾ AFK ആണ്!*",
+            "IM_AFK_NOMD": "ഇപ്പോൾ AFK ആണ്!",
+            "REASON": "കꪆരണം",
+            "LAST_SEEN": "അവസꪆനം കണ്ടത്",
+            "IM_NOT_AFK": "```AFK ന᭄ന്നും പ᭄ന്മꪆറ᭄!```",
+            "AFK_TEXT": "```ഞꪆൻ ഒരു യൂസർ ബോട്ടꪆണ് എന്നെ ഉണ്ടꪆക്ക᭄യ ആൾ ഇപ്പോൾ ഓൺലൈന᭄ൽ ഇല്ല.```",
+            "AFK_TEXT_NOMD": "ഞꪆൻ ഒരു യൂസർ ബോട്ടꪆണ് എന്നെ ഉണ്ടꪆക്ക᭄യ ആൾ ഇപ്പോൾ ഓൺലൈന᭄ൽ ഇല്ല.",
+            "HOUR": "സമയം ",
+            "MINUTE": "മ᭄ന᭄റ്റ് ",
+            "SECOND": "സെക്കൻഡ്",
+            "AGO": " മുമ്പ്```"
         },
         "evaluators": {
-            "TERM_DESC": "serverinte shellill command run cheyum.",
-            "GIVE_ME_CODE": "*code theru!*"
+            "TERM_DESC": "പ്രോഗ്രꪆം സർവറ᭄ൽ ഓട᭄ക്കꪆം.",
+            "GIVE_ME_CODE": "*പ്രോഗ്രꪆം ത᭄ര᭄ക !*"
         },
         "nekobin": {
-            "NEKO_DESC": "Replied messages will be added to nekobin.com.",
-            "NEED_REPLY": "```oru messagin reply cheyyu!```",
-            "MUST_TEXT": "```eathellum oru messagin reply cheyyu```"
+            "NEKO_DESC": "മറുപട᭄ ആയ᭄ നൽകുന്ന മെസ്സേജുകൾ nekobin.com ഇലേക്ക് ചേർക്കും",
+            "NEED_REPLY": "മറ്റേതെങ്ക᭄ലും മെസ്സേജ᭄ന് മറുപട᭄യꪆയ᭄ അയക്കുക!",
+            "MUST_TEXT": "മറുപട᭄ അയക്കുന്നത് ഒരു വꪆക്ക᭄നയ᭄ര᭄ക്കണം, മറ്റൊന്നും സ്വീകര᭄ക്കുന്നതല്ല"
         },
         "heroku": {
-            "RESTART_DESC": "\nRestart pinkymwol\n",
-            "RESTART_MSG": "```punararambikkunu...```",
-            "SHUTDOWN_DESC": "\nShutdown pinkymwol\n",
-            "SHUTDOWN_MSG": "```adach poottunnu ⛔```",
-            "DYNO_DESC": "heroku dyno kanaan ",
-            "DYNO_TOTAL": "```motham Quota```",
-            "DYNO_USED": "```Quota upayogichath```",
-            "PERCENTAGE": "```shedhamanam```",
-            "DYNO_LEFT": "```backi ullath```",
-            "SETVAR_DESC": "heroku config var set cheyaan",
-            "SET_SUCCESS": "vijayagaramaayi set cheythu ```{} ➜ {}```",
-            "KEY_VAL_MISSING": "``` Key allenkkil Value missing aan```",
-            "INVALID": "```asaathuvaya key:value format```",
-            "GETVAR_DESC": "Get heroku config var",
-            "DELVAR_DESC": "Delete heroku config var",
-            "DEL_SUCCESS": "```{} vijayagaramaayi delete cheythu```",
-            "NOT_FOUND": "```ee keykk result onnum kandethaan aayilla```"           
+            "RESTART_DESC": "Liza Mwol റീസ്റ്റꪆർട്ട് ചെയ്യുക",
+            "RESTART_MSG": "```റീസ്റ്റꪆർട്ട് ചെയ്യുന്നു..```",
+            "SHUTDOWN_DESC": "Liza Mwol  യെ ഓഫ് ചെയ്യുക",
+            "SHUTDOWN_MSG": "```ഓഫ് ചെയ്യുന്നു ⛔```",
+            "DYNO_DESC": "heroku dyno ഉപയോഗം അറ᭄യꪆൻ",
+            "DYNO_TOTAL": "```മൊത്തം ക്വꪆട്ട```",
+            "DYNO_USED": "```ഉപയോഗ᭄ച്ച ക്വꪆട്ട```",
+            "PERCENTAGE": "```ശതമꪆനം```",
+            "GR_DEL": "*അഭ᭄വꪆദ്യ സന്ദേശം സജ്ജമꪆക്ക᭄!*\n*ഇല്ലꪆതꪆക്കꪆൻ ഇന᭄പ്പറയുന്ന കമꪆൻഡ് ഉപയോഗ᭄ക്കുക:* ```.goodbye delete & .welcome delete```",
+            "DYNO_LEFT": "```ശേഷ᭄ക്കുന്ന```",
+            "SETVAR_DESC": "heroku config var സെറ്റ് ചെയ്യꪆൻ",
+            "SET_SUCCESS": "വ᭄ജയകരമꪆയ᭄ സെറ്റ് ചെയ്തു ```{} ➜ {}```",
+            "KEY_VAL_MISSING": "```കീ അല്ലെങ്ക᭄ൽ വꪆല്യു നൽക᭄യ᭄ട്ട᭄ല്ല```",
+            "INVALID": "```കീ:വꪆല്യു ഫോർമꪆറ്റ് തെറ്റꪆണ്```",
+            "GETVAR_DESC": "heroku config var ലഭ᭄ക്കꪆൻ",
+            "DELVAR_DESC": "heroku config var നീക്കം ചെയ്യꪆൻ",
+            "DEL_SUCCESS": "```{} വ᭄ജയകരമꪆയ᭄ നീക്കം ചെയ്ത᭄ര᭄ക്കുന്നു```",
+            "NOT_FOUND": "```ന᭄ങൾ കൊടുത്ത ഈ കീ എന᭄ക്ക് കണ്ടെത്തꪆനꪆയ᭄ല്ല```",
+            "SUCC": "*വ᭄ജയകരമꪆയ᭄ സജ്ജമꪆക്കുക ✅* \n*കുറച്ച് സമയം കꪆത്ത᭄ര᭄ക്കുക.*",
+            "SUCC_AF": "*ഇത് പുന restore സ്ഥꪆപ᭄ക്കꪆൻ* ```default``` *എന്ന വꪆചകം ഉപയോഗ᭄ക്കുക.*",
+            "DEGİS_NONE": "```ഏതെങ്ക᭄ലും മൊഡ്യൂൾ നꪆമം നൽകുക!``` \n\n*.degis afk*\n*.degis alive* << *വേര᭄യബ᭄ളുകൾ* >> \n_{pp}: ഇത് ഒര᭄ക്കൽ ഉപയോഗ᭄ച്ചꪆൽ മത᭄യꪆകും. സന്ദേശത്ത᭄ലേക്ക് ന᭄ങ്ങളുടെ പ്രൊഫൈൽ ഫോട്ടോ ചേർക്കുന്നു._ \n_{asenalogo}: ആന᭄മേറ്റഡ് Liza Mwol  ലോഗോ ചേർക്കുന്നു._\n_{info}: ന᭄ങ്ങളുടെ ന᭄ല കꪆണ᭄ക്കുന്നു_ \n_{version}: ബോട്ട᭄ന്റെ പത᭄പ്പ് കꪆണ᭄ക്കുന്നു_ \n_{plugin}: പ്ലഗ᭄ൻ ചꪆനൽ കꪆണ᭄ക്കുന്നു_\n*.degis ban*\n*.degis add*\n*.degis welcome* \n*.degis goodbye* \n*.degis mute*\n*.degis unmute*\n*.degis promote*\n*.degis demote*\n*.degis kickme*\n*.degis block*\n*.degis unblock*",
+            "WR": "*ബꪆധകമꪆയ മൊഡ്യൂളുകൾ ദയവꪆയ᭄ ഉപയോഗ᭄ക്കുക!*",
+            "DEGİS_DESC": "Alive, afk പോലുള്ള മൊഡ്യൂളുകളുടെ വꪆചകം മꪆറ്റ᭄സ്ഥꪆപ᭄ക്കുക."          
         },
         "filters": {
-            "FILTER_DESC": "filter add cheyyum. aarellum ningallude filter type cheythaal, marpadi nelgum. .filter enn mathram adichaal, motham filter listlum kaanikkum.",
-            "NO_FILTER": "*❌ eee chattil filter illa!*",
-            "FILTERS": "*🔎 itha ee chatile filter:*",
-            "NEED_REPLY": "*❌replyill type cheyyu!*\n*Example:*",
-            "FILTERED": "*✅ vijayagaramaayi set cheythu* ```{}``` *to filter!*",
-            "STOP_DESC": "ningall add cheytha filter delet aakkum.",
-            "NEED_FILTER": "*❌ oru filter type cheyyu!*\n*Example:*",
-            "ALREADY_NO_FILTER": "*❌ inganne oru filter nilavill illa!*",
-            "DELETED": "*✅ filter vijayagaramaayi delete cheyythu!*"
+            "FILTER_DESC": "ഇത് ഒരു ഫ᭄ൽട്ടർ ചേർക്കുന്നു. ആരെങ്ക᭄ലും ന᭄ങ്ങളുടെ ഫ᭄ൽ‌റ്റർ‌ എഴുതുകയꪆണെങ്ക᭄ൽ‌, അത് ഉത്തരം അയയ്‌ക്കുന്നു. ന᭄ങ്ങൾ .filter എന്ന് എഴുതുകയꪆണെങ്ക᭄ൽ, അത് ന᭄ങ്ങളുടെ ഫ᭄ൽട്ടർ ല᭄സ്റ്റꪆണെന്ന് കꪆണ᭄ക്കുന്നു.",
+            "NO_FILTER": "*❌ യꪆതൊരു ഫ᭄ൽറ്റർ ആഡ് ചെയ്ത᭄ട്ട᭄ല്ല!*",
+            "FILTERS": "*🔎 Tഇതꪆണ് ന᭄ലവ᭄ലെ ഫ᭄ൽട്ടറുകൾ:*",
+            "NEED_REPLY": "*❌ മറുപട᭄ ആയ᭄ തര᭄ക!*\n*ഉദꪆഹരണo:*",
+            "FILTERED": "*✅ വ᭄ജയകരമꪆയ ഫ᭄ൽറ്റർ സെറ്റ് ചെയ്തു* ```{}``` *to filter!*",
+            "STOP_DESC": "ന᭄ങ്ങൾ മുമ്പ് ചേർത്ത ഫ᭄ൽട്ടർ ന᭄ർത്തുന്നു.",
+            "NEED_FILTER": "*❌ ഫ᭄ൽട്ടർ എഴുതുക!*\n*ഉദꪆഹരണo:*",
+            "ALREADY_NO_FILTER": "*❌ ഫ᭄ൽട്ടറുകൾ ഒന്നുംതന്നെയ᭄ല്ല!*",
+            "DELETED": "*✅ വ᭄ജയകരമꪆയ ഫ᭄ൽറ്റർ ഡ᭄ലീറ്റ് ചെയ്തു!*"
         },
         "greetings": {
-            "WELCOME_DESC": "welcome message add cheyyum . shoonyamakki vechaal welcome message kaanikkum.",
-            "NOT_SET_WELCOME": "*welcome message set akkeett illa.!*\n**set akkaan:** ```.welcome your welcome message```",
-            "WELCOME_ALREADY_SETTED": "*✅ Welcome message pande set aan!*\n*Message:* ```",
-            "NEED_WELCOME_TEXT": "*welcome message set akkaan oru message type aakanam mishter.*\n*Example:* ```.welcome WELCOME!```",
-            "WELCOME_DELETED": "*✅ Welcome message vijayagaramaayi delete cheythu!*",
-            "WELCOME_SETTED": "*✅ Welcome message vijayagaramaayi set  aakki!*",
-            "GOODBYE_DESC": "goodbye message add cheyyum . shoonyamakki vechaal goodbye message kaanikkum.",
-            "NOT_SET_GOODBYE": "* goodbye message set akkeett illa.!*\n**set akkaan:* ```.goodbye Your Goodbye Message```",
-            "GOODBYE_ALREADY_SETTED": "*✅ Goodbye message set akeedund!*\n*Message:* ```",
-            "NEED_GOODBYE_TEXT": "*goodbye message set akkaan oru message type aakanam mishter.*\n*Example:* ```.goodbye Goodbye!```",
-            "GOODBYE_DELETED": "*✅ Goodbye vijayagaramaayi delete aaki.!*",
-            "GOODBYE_SETTED": "*✅ Goodbye vijayagaramaayi set aaki!*"
+            "WELCOME_DESC": "ഇത് സ്വꪆഗത സന്ദേശം സജ്ജമꪆക്കുന്നു. ന᭄ങ്ങൾ ഇത് ശൂന്യമꪆയ᭄ വ᭄ടുകയꪆണെങ്ക᭄ൽ അത് സ്വꪆഗത സന്ദേശം കꪆണ᭄ക്കുന്നു.",
+            "NOT_SET_WELCOME": "*ന᭄ങ്ങൾ ഇതുവരെ സ്വꪆഗത സന്ദേശം സജ്ജമꪆക്ക᭄യ᭄ട്ട᭄ല്ല.!*\n**To set:** ```.welcome ഹꪆയ് && ഹꪆയ്സ്വꪆ#ഗതം```",
+            "WELCOME_ALREADY_SETTED": "*✅ സ്വꪆഗത സന്ദേശം മുന്നേ സജ്ജീകര᭄ച്ചു!*\n*Message:* ```",
+            "NEED_WELCOME_TEXT": "*തീർച്ചയꪆയും സ്വꪆഗത സന്ദേശം എഴുതുക.*\n*ഉദꪆഹരണo:* ```.welcome ഹꪆയ് && ഹꪆയ്സ്വꪆ#ഗതം```",
+            "WELCOME_DELETED": "*✅ സ്വꪆഗത സന്ദേശം എടുത്തുകളഞ്ഞു!*",
+            "WELCOME_SETTED": "*✅ സ്വꪆഗത സന്ദേശം കൃത്യമꪆയ᭄ സജ്ജമꪆക്കുന്നു.!*",
+            "GOODBYE_DESC": "വ᭄ട സന്ദേശം സജ്ജമꪆക്കുന്നു. ന᭄ങ്ങൾ ശൂന്യമꪆയ᭄ വ᭄ടുകയꪆണെങ്ക᭄ൽ, അത് വ᭄ട സന്ദേശമꪆണ് കꪆണ᭄ക്കുന്നത്.",
+            "NOT_SET_GOODBYE": "*വ᭄ട പറയുന്ന സന്ദേശം ക്രമീകര᭄ച്ച് ക᭄ട്ട᭄ല്ല!*\n*To set:* ```.goodbye വ᭄ട && വ᭄ട#സുഹൃത്ത്```",
+            "GOODBYE_ALREADY_SETTED": "*✅ വ᭄ട പറയുന്ന സന്ദേശം ക്രമീകര᭄ച്ചു.!*\n*Message:* ```",
+            "NEED_GOODBYE_TEXT": "*വ᭄ട പറയുന്ന സന്ദേശം എഴുതുക.*\n*ഉദꪆഹരണo:* ```.goodbye വ᭄ട && വ᭄ട#സുഹൃത്ത്```",
+            "GOODBYE_DELETED": "*✅ വ᭄ട പറയുന്ന സന്ദേശം കളഞ്ഞു!*",
+            "GOODBYE_SETTED": "*✅ വ᭄ട പറയുന്ന സന്ദേശം ക്രമീകര᭄ച്ചു!*"
         },
         "lydia": {
-            "ADDLYDIA_DESC": "Activates Lydia (AI) for the user.",
-            "NEED_REPLY": "```Please respond to a user's message!```",
-            "COFFEEHOUSE": "```You haven't defined the Coffehouse API Key! ```",
-            "ENABLED_LYDIA": "```Lydia has been activated for this user!```",
-            "RMLYDIA_DESC": "Makes Lydia disabled for the user.",
-            "ALREADY_EMPTY": "```Your user list is already empty!```",
-            "NOT_ADDED": "```You haven't added this user already!```",
-            "DISABLED": "```Lydia has been disabled for this user!```"
+            "ADDLYDIA_DESC": "ഉപയോക്തꪆവ᭄നꪆയ᭄ ല᭄ഡ᭄യ സജീവമꪆക്കുന്നു.",
+            "NEED_REPLY": "```ഒരു ഉപയോക്തꪆവ᭄ന്റെ സന്ദേശത്തോട് ദയവꪆയ᭄ പ്രത᭄കര᭄ക്കുക!```",
+            "COFFEEHOUSE": "```ന᭄ങ്ങൾ CoffeHouse API കീ ന᭄ർവച᭄ച്ച᭄ട്ട᭄ല്ല! ```",
+            "ENABLED_LYDIA": "```ഈ ഉപയോക്തꪆവ᭄നꪆയ᭄ ല᭄ഡ᭄യ സജീവമꪆക്ക᭄!```",
+            "RMLYDIA_DESC": "ഉപയോക്തꪆവ᭄നꪆയ᭄ ല᭄ഡ᭄യയെ പ്രവർത്തനരഹ᭄തമꪆക്കുന്നു.",
+            "ALREADY_EMPTY": "```ന᭄ങ്ങളുടെ ഉപയോക്തൃ പട്ട᭄ക ഇത᭄നകം ശൂന്യമꪆണ്!```",
+            "NOT_ADDED": "```ന᭄ങ്ങൾ ഇത᭄നകം ഈ ഉപയോക്തꪆവ᭄നെ ചേർത്ത᭄ട്ട᭄ല്ല!```",
+            "DISABLED": "```ഈ ഉപയോക്തꪆവ᭄നꪆയ᭄ ല᭄ഡ᭄യ അപ്രꪆപ്‌തമꪆക്ക᭄!```"
         },
         "memes": {
-            "MEMES_DESC": "replay cheytha chithrathil meme text add aakunu.",
-            "NEED_REPLY": "\n*oru chithrathin reply cheyyu!*\n",
-            "DOWNLOADING": "```chithrathil eyuthh add cheyyunu...```"
-        },
-        "log": {
-            "LOG": "ningal reply cheytha message ningalude privete numberil save aakum.",
-            "REPLY": "*eathenkkillum messagin replay cheyyu!*",
-            "ANIM": "animated sticker supporting alla!",
-            "HEAD": "```===== [LOGGED MESSAGE] =====```\n\n",
-            "USER": " From User Number \n",
-            "FROM": " From the group with ID, ",
-            "MSG": "Message: \n\n",
-            "SUC": "*Message vijayagramayyi logil save cheythu!*"
+            "MEMES_DESC": "Photo memes you replied to.",
+            "NEED_REPLY": "*Reply to a photo!*",
+            "DOWNLOADING": "```Downloading media & making meme...```"
         },
         "ocr": {
-            "OCR_DESC": "ningal reply cheytha chithrathile eyuth vayich theraan.",
-            "NEED_REPLY": "*oru chithrathin reply cheyyu!*",
-            "DOWNLOADING": "```njan ith onn vayich nokkatte...```",
-            "ERROR": "```enik vayikaan kayyunilla :/```\n*Error:*```{}```",
-            "RESULT": "*baasha:* ```{}```\n*ithaan njan vayichath:* ```{}```"
+            "OCR_DESC": "Reads the text on the photo you have replied.",
+            "NEED_REPLY": "*Reply to a photo!*",
+            "DOWNLOADING": "```Media is downloading & reading...```",
+            "ERROR": "```I couldn't read this :/```\n*Error:*```{}```",
+            "RESULT": "*Language:* ```{}```\n*Here is what I read:* ```{}```"
         },
         "profile": {
-            "KICKME_DESC": "enne groupill nin purath akaan.",
-            "KICKME": "```Bye bye! njan povunnu 🤠```",
-            "PP_DESC": "reply cheytha chithram profil akkaan.",
-            "NEED_PHOTO": "*Give me a photo!*",
-            "PPING": "```profile maattunnu...```",
-            "BLOCK_DESC": "Block user.",
-            "UNBLOCK_DESC": "Unblock user.",
-            "BLOCKED": "block aakki",
-            "UNBLOCKED": "unblock aakki",
-            "BLOCKED_UPPER": "Block aakki!",
-            "UNBLOCKED_UPPER": "Unblock aakki.",
-            "NEED_USER": "oru usere theru!",
-            "JID_DESC": "userude JID  .",
+            "KICKME_DESC": "ഞꪆൻ പേꪆകുന്നു.",
+            "KICKME": "```ടꪆറ്റ! ഞꪆൻ പോകുന്നു 🤠```",
+            "PP_DESC": "പ്രൊഫൈൽ ഫോട്ടോ ആകേണ്ട  ടꪆ ഫോട്ടോയ്ക്ക് ടꪆഗ് ചെയ്തു അയക്കുക.",
+            "NEED_PHOTO": "*ഒരു ച᭄ത്രം തര᭄ക!*",
+            "PPING": "```പ്രൊഫൈൽ ഫോട്ടോ ആകുന്നു...```",
+            "BLOCK_DESC": "ഉപഭോക്തꪆവ᭄നെ തടയുന്നു.",
+            "UNBLOCK_DESC": "ഉപയോക്തꪆവ᭄നെ തടഞ്ഞത് മꪆറ്റുക.",
+            "BLOCKED": "തടഞ്ഞു",
+            "UNBLOCKED": "തടഞ്ഞത് മꪆറ്റ᭄",
+            "BLOCKED_UPPER": "തടഞ്!",
+            "UNBLOCKED_UPPER": "തടഞ്ഞത് മꪆറ്റ᭄.",
+            "NEED_USER": "എന᭄ക്ക് ഒരു ഉപയോക്തꪆവ᭄നെ തരൂ!",
+            "JID_DESC": "Giving user's JID.",
             "JID": "```JID address of``` @{} ```: {}```",
-            "JID_CHAT": "```Chat inte JID address: {}```"
+            "JID_CHAT": "```Chat's JID address: {}```"
         },
         "removebg": {
-            "REMOVEBG_DESC": "chithrathinte background maayichu kalaayan.",
-            "NEED_PHOTO": "*photo thaa mister!*",
-            "NO_API_KEY": "*Api key illa aliyaa*\n```remove.bg login for apikey```",
-            "RBGING": "```maayikkunu...```"
+            "REMOVEBG_DESC": "ബꪆക്ക᭄ൽ ഉള്ള ച᭄ത്രം നീക്കുന്നു.",
+            "NEED_PHOTO": "*ഒരു ഫോട്ടോ തര᭄ക!*",
+            "NO_API_KEY": "*എ പ᭄ ഐ നൽക᭄യ᭄ട്ട᭄ല്ല !*\nഇവ᭄ടെ ന᭄ന്നും ക᭄ട്ടും: remove.bg.",
+            "RBGING": "```ച᭄ത്രം എഡ᭄റ്റ് ചെയ്യുന്നു...```"
         },
         "scrapers": {
-            "TRANSLATE_DESC": "google translator vech viverthanam cheyyunu, eathellum messagin reply cheyannam.",
-            "TRANSLATE_USAGE": ".trt en ml (englishil ninnum malayalathillek)",
-            "NEED_REPLY": "```eathellum messagin replay cheyannam!```",
-            "LANG": "basha",
-            "FROM": "viverthanam cheytha basha",
-            "RESULT": "viverthanam",
-            "TRANSLATE_ERROR": "❌ viverthanam cheyumboll entho thettu patti!*",
-            "CURRENCY_ERROR": "```Syntax thatt aan! Example: .currency 1 TRY USD```",
-            "INVALID_CURRENCY": "```Foreign currency transaction failed. thettaaya currency aan thannath!```",
-            "UNKNOWN_ERROR": "```An error occurred. Foreign currency transaction failed!```",
-            "TTS_DESC": "text shabthathilekk maattunnu.",
-            "TTS_ERROR": "```cheyaaan pattiyilla!```",
-            "SONG_DESC": "ningal type cheytha paatt upload cheyth therum.",
-            "NEED_TEXT_SONG": "*paattinte per adikku!*\n*Example:* ```.song Naadan Vibe```",
-            "NO_RESULT": "*ennikk onnum kandethaan aayilla :(*",
-            "DOWNLOADING_SONG": "\npaatt thappunnu 🤗\n",
-            "UPLOADING_SONG": "\nPaatt Upload 📲 cheyyunnu\n",
-            "VIDEO_DESC": "YouTubeill nin video download cheyyan.",
-            "NEED_VIDEO": "*oru video link theru!*\n*Example:* ```.video https://www.youtube.com/watch?v=nAFlVm5qeBc```",
-            "DOWNLOADING_VIDEO": "\n```Downloading...```\n",
-            "UPLOADING_VIDEO": "\n```Uploading...```\n",
-            "YT_DESC": "YouTubeill search cheyyum.",
-            "NEED_WORDS": "```search cheyende words type cheyyu!```",
-            "GETTING_VIDEOS": "```video link kond verunnu...```",
-            "NOT_FOUND": "*Thappinokeett kittiyilla ☹️*",
-            "SEARCHING": "*🔎 searching...*",
-            "WIKI_DESC": "Wikipedia yill search cheyyaan.",
-            "IMG_DESC": "googlil chithram search cheyaan.",
-            "IMG": "chithram upload cheyyunu ```{}``` number ```{} ```..."
+            "TRANSLATE_DESC": "മെസ്സേജ് ചെയ്തു റ᭄പ്ലൈ അയക്കുക .",
+            "TRANSLATE_USAGE": ".trt tr ml (തുർക്ക᭄യ᭄ൽ ന᭄ന്നും മലയꪆളത്ത᭄ലേക്ക്)",
+            "NEED_REPLY": "```ഏതെങ്ക᭄ലും മെസ്സേജ᭄ന് മറുപട᭄ നൽകുക!```",
+            "LANG": "ഭꪆഷ",
+            "FROM": "തർജ്ജമ ഭꪆഷ",
+            "RESULT": "തർജ്ജമ ചെയ്യുന്നു",
+            "TRANSLATE_ERROR": "\"❌ എന്തോ തകരꪆറു സംഭവ᭄ച്ചു തർജ്ജമ ചെയ്യുന്നത᭄ൽ!*",
+            "CURRENCY_ERROR": "```വ᭄ദേശ ദേശ വ᭄ദേശനꪆണയം യുമꪆയുള്ള ട്രꪆൻസꪆക്ഷൻ തകരꪆറꪆയ᭄! Example: .currency 1 TRY USD```",
+            "INVALID_CURRENCY": "```വ᭄ദേശ ദേശ വ᭄ദേശനꪆണയം യുമꪆയുള്ള ട്രꪆൻസꪆക്ഷൻ തകരꪆറꪆയ᭄. തെറ്റꪆയ കറൻസ᭄!```",
+            "UNKNOWN_ERROR": "```എന്തോ തകരꪆറു സംഭവ᭄ച്ചു. വ᭄ദേശ ദേശ വ᭄ദേശനꪆണയം യുമꪆയുള്ള ട്രꪆൻസꪆക്ഷൻ തകരꪆറꪆയ᭄!```",
+            "TTS_DESC": "വꪆക്കുകള ശബ്ദം ആകുന്നു.",
+            "TTS_ERROR": "```പ᭄ശക്, ന᭄ങ്ങളുടെ വꪆക്യത്ത᭄ന്റെ സംഭꪆഷണ ഉദꪆഹരണം സൃഷ്‌ട᭄ക്കꪆൻ കഴ᭄ഞ്ഞ᭄ല്ല!```",
+            "SONG_DESC": "ന᭄ങ്ങൾ എഴുത᭄യ ഗꪆനം അപ്‌ലോഡുചെയ്യുന്നു.",
+            "NEED_TEXT_SONG": "*ഒരു ഗꪆനം എഴുതുക!*\n*Example:* ```.song eminem - rap god```",
+            "NO_RESULT": "*എന᭄ക്ക് ഒന്നും കണ്ടെത്തꪆൻ സꪆധ᭄ച്ച᭄ല്ല :(*",
+            "DOWNLOADING_SONG": "```പꪆട്ട് ഡൗൺലോഡ് ചെയ്യുന്നു...```",
+            "UPLOADING_SONG": "```വꪆട്സ്ആപ്പ് ലേക്ക് പꪆട്ട് അപ്‌ലോഡ് ചെയ്യുന്നു...```",
+            "VIDEO_DESC": "യൂട്യൂബ᭄ൽ ന᭄ന്നും വീഡ᭄യോ ഡൗൺലോഡ് ചെയ്യുന്നു.",
+            "NEED_VIDEO": "*യൂട്യൂബ് വീഡ᭄യോ ല᭄ങ്ക് കൂട᭄ നൽകുക!*\n*ഉദꪆഹരണo:* ```.video https://www.youtube.com/watch?v=nAFlVm5qeBc```",
+            "DOWNLOADING_VIDEO": "```വീഡ᭄യോ ഡൗൺലോഡ് ചെയ്യുന്നു...```",
+            "UPLOADING_VIDEO": "```വീഡ᭄യോ അപ്‌ലോഡ് ചെയ്യുന്നു...```",
+            "YT_DESC": "യൂട്യൂബ᭄ൽ പര᭄ശോധ᭄ക്കുന്നു.",
+            "NEED_WORDS": "```കുറച്ചു വꪆക്കുകൾ എഴുതുക!```",
+            "GETTING_VIDEOS": "```വീഡ᭄യോകൾ എടുക്കുന്നു...```",
+            "NOT_FOUND": "*ഒന്നും കണ്ടെത്തꪆൻ സꪆധ᭄ച്ച᭄ല്ല :(*",
+            "SEARCHING": "*🔎 അന്വേഷ᭄ക്കുന്നു...*",
+            "WIKI_DESC": "വ᭄ക്ക᭄പീഡ᭄യയ᭄ൽ ത᭄രയുന്നു.",
+            "IMG_DESC": "Google ച᭄ത്രങ്ങൾ എടുക്കുന്നു.",
+            "IMG": "ഫോട്ടോ അപ്‌ലോഡുചെയ്യുന്നു ```{} {}```..."
         },
         "sticker": {
-            "STICKER_DESC": "chithram sticker akkaan.",
-            "NEED_REPLY": "*photo allenkil chithram reply cheyyu!*",
-            "DOWNLOADING": "```Ippam Sheriyaakithara 🤠```"
+            "STICKER_DESC": "ഫോട്ടോ വീഡ᭄യോ സ്റ്റ᭄ക്കർ ആക്ക᭄ മꪆറ്റുന്നു.",
+            "NEED_REPLY": "*ഫോട്ടോ അല്ലെങ്ക᭄ൽ വീഡ᭄യോയ്ക്ക് മറുപട᭄യꪆയ᭄ നൽകുക!*",
+            "DOWNLOADING": "```ഫയൽ ഡൗൺലോഡ് ചെയ്ത് സ്റ്റ᭄ക്കർ ആക്ക᭄ മꪆറ്റുന്നു...```"
         },
         "system_stats": {
-            "ALIVE_DESC": "bot working aano enn ariyan",
-            "SYSD_DESC": "system properties kaanikkum."
+            "ALIVE_DESC": "ബോട്ട് പ്രവർത്ത᭄ക്കുമോ??",
+            "SYSD_DESC": "സ᭄സ്റ്റം പ്രോപ്പർട്ട᭄കൾ കꪆണ᭄ക്കുന്നു."
         },
         "tagall": {
-            "TAGALL_DESC": "groupile ellareyum tag cheyyum.",
-            "ADMİN": "*njan admin allalo..😕!*"
-        },
-        "updater": {
-            "UPDATER_DESC": "update indo enn ariyaan.",
-            "UPDATE": "*ningalude bot up-to-date aan!*",
-            "NEW_UPDATE": "*Pikachu Puthiya Update Vannittund* \n\n update cheyummathin munb support groupil chodhikkuka , allenkkil error veran chance und\n\nChanges:\n```",
-            "UPDATE_NOW_DESC": "botine update cheyaan.",
-            "UPDATING": "```Updating..🐥```",
-            "INVALID_HEROKU": "*❌ ningal thanna Heroku information thett aan !*",
-            "UPDATED": "*Updated 🤠✅*",
-            "UPDATED_LOCAL": "*✅ vijayagaramayi Update cheythu!*",
-            "AFTER_UPDATE": "*😎 Pikachu Restarting..*"
-        },
-        "weather": {
-            "WEATHER_DESC": "ningal therrunna sthalathe kaalavastha kaanikkum.",
-            "NEED_LOCATION": "* location type cheyyi!*\n*Example:* ```.weather kozhikode```",
-            "LOCATION": "sthalam",
-            "LAT": "Lattitude",
-            "LONG": "Longitude",
-            "TEMP": "Temperature",
-            "DESC": "Description",
-            "FEEL": "Feels Like",
-            "HUMI": "Humidity",
-            "WIND": "Wind Speed",
-            "CLOUD": "Cloud",
-            "NOT_FOUND": "```ingane oru sthalam enikk kandethaan aayilla. 😖```",
-            "QUOTE_DESC": "oru nalla qoute paranj therum 😜 .",
-            "NEED_LOCATIONA": "*Invalid Request*",
-            "QUOTE": "Quote:",
-            "AUTHOR": "paranjath:",
-            "NOT_FOUNDA": "```Sorry,I could not find a quote. 😖```",
-            "NAMEY": "per:",
-            "PUBLISHER": "Publisher",
-            "MODINFO": "ModInfo",
-            "DOWNLOAD": "Download",
-            "SIZE": "Size:",
-            "MODD_DESC": "Get modded app details from MODDROID.",
-            "HMODD_DESC": "Get modded app details from HappyMod.",
-            "NEED_APPNAME": "*Invalid Request,Provide an app name*",
-            "NOT_FOUNDMD": "```Sorry,I could not find such an app.\n Try using .happymod if .modd is not working 😖```",
-            "CM_DESC": "compliment kittaan.",
-            "NOT_FOUNDAC": "*thettaaya Request*",
-            "CM": "Hey,",
-            "BOT_DESC": "botinod samsarikkaan.\n Use .bot <message>",
-            "BOT": ":",
-            "JOKE_DESC": "oru thamasha parayyatte....",
-            "JOKE": "thamasha:",
-            "PUNCHLINE": "Punchline:",
-            "EVINS_DESC": "korch insult kelkaan.",
-            "EVINS": "...",
-            "ZODIAC_DESC": "nekshathrathinte jaadhagam ariyaan.",
-            "NEED_ZOD": "*thettaaya Request,Provide your sunsign*",
-            "SUNSIGN": "nekshathram",
-            "HOROSCOPE": "jaadhagam",
-            "NEWS_DESC": "choodulla vaarthakkayyi,  .news inu shasham catagory add cheyanam .",
-            "NEED_CATEGORY": "*category type aakk!*\n*Example:* ```.news technology```",
-            "CATEGORY": "Category",
-            "RMLINK": "Read More",
-            "NEWS": "News ulladakkam",
-            "NEWST": "News Title",
-             "NOT_FOUND": "```eee perril category kittiylla. 😖```",
-            "SONG": "Song",
-            "ALBUM": "Album",
-            "TITLE": "Title",
-            "PUBLICATION": "Publication",
-            "SONGL": "Link",
-            "NEED_SONG": "Song name para nenba 🥲.",
-            "NOT_FOUNDS" : "angane oru paatt kittiyilla!",
-            "JOOX_DESC": "paattinte detailsum linkum therum.",
-            "LYRICS_DESC": "paattinte lyrics ayach therum.",
-            "SONGLI": "Lyrics",
-            "TIN_DESC": "thannitt ulla link tinyurl vech neelam cheruthakaan.",
-            "BIT_DESC": " link bitly vech neelam cheruthakkaan.",
-            "NOT_FOUNDLI": "Lyrics kittiylla",
-            "SLINK": "Link",
-            "NEED_LINK":"link thaa",
-            "IGTVDESC":"\n IGTV linkill nin video download cheyyum \n",
-            "NEED_WORDIGTV":"IGTV link thaa",
-            "LOADINGTV":"Loading...",
-             "NOT_FOUNDIG":"Insta video kand ethiyyilla",
-             "USERNAME":"Username",
-            "CAPTION":"Caption",
-             "VID":"Video",
-             "NEED_WORDIG":" IG linkil nin video download cheyyaan",
-            "IGDESC":"IG linkil nin video download cheyyaan \n Reels aanengill linkill ninn 'reels' change aakki 'p' aakkuga.",
-            "FBDESC":"Download videos from fb link",
-            "NEED_WORDFB":"fb linkil nin download cheyyaan",
-            "NOT_FOUNDFB":"Fb video kand ethaan aayilla"
-            
-            
-        },
-        "web": {
-            "SPEEDTEST_DESC": "Measures Download and Upload speed.",
-            "SPEEDTESTING": "```Running speed test...```",
-            "SPEEDTEST_RESULT": "*Speed ​​test completed!*",
-            "UPLOAD": "Upload",
-            "DOWNLOAD": "Download",
-            "PING_DESC": "Measures your ping.",
-            "URL": "neelamulla link cheruthakaan."
-        },
-        "conventer": {
-            "MP4TOAUDİO_DESC": "video sound mathram akaan.",
-            "MP4TOAUDİO_NEEDREPLY": "*Video reply cheyy macha!*",
-            "MP4TOAUDİO": "```Video Audio aaakki maattunnu..```",
-            "STİCKER_DESC": "sticker photo akaan.",
-            "STİCKER_NEEDREPLY": "*Photokk Reply ayitt ayakk*",
-            "STİCKER": "```Converting...```",
-            "XMEDİA_DESC": "25 media tools ulla oru plugin .",
-            "T_FALSE": "```❌ thettaaya Blend Effect aan thannath!```\n```🔎 Existing Commands:```\n\n*$dodge* - Applies a pink color filter to the video.\n*$multiply* - Applies a green color filter to the video.\n*$grainmerge* - Increases the contrast of the video.\n*$and* - Applies black lightning effect according to the speed of the video.\n*$or* - Applies a white lightning effect according to the speed of the video.\n*$burn* - Applies green contrast to video.\n*$difference* - Shows the differences by applying green relief to the video.\n*$grainextract* - Shows the differences by applying gray relief to the video.\n*$divide* - Demonstrates the differences by applying a pink relief to the video.\n*$xor* - Applies both green relief and lightning effect to video.\n*$hardmix* - Mixes the colors of the video into a yellow and red tone.\n*$negation* - Turns the dynamics of the video to pink.",
-            "T_NOT": "```💭 eathellum oru Blend Effects type cheyanam!\n```🔎 Existing Commands:```\n\n*$dodge* - Applies a pink color filter to the video.\n*$multiply* - Applies a green color filter to the video.\n*$grainmerge* - Increases the contrast of the video.\n*$and* - Applies black lightning effect according to the speed of the video.\n*$or* - Applies a white lightning effect according to the speed of the video.\n*$burn* - Applies green contrast to video.\n*$difference* - Shows the differences by applying green relief to the video.\n*$grainextract* - Shows the differences by applying gray relief to the video.\n*$divide* - Demonstrates the differences by applying a pink relief to the video.\n*$xor* - Applies both green relief and lightning effect to video.\n*$hardmix* - Mixes the colors of the video into a yellow and red tone.\n*$negation* - Turns the dynamics of the video to pink.",
-            "T_DESC": "tblend effect videoyill add cheyaan." 
-        },
-        "mute": {
-            "1MUTE": "*The group was silenced for 1 minute!*",
-            "2MUTE": "*The group was silenced for 2 minute!*",
-            "3MUTE": "*The group was silenced for 3 minute!*",
-            "4MUTE": "*The group was silenced for 4 minute!*",
-            "5MUTE": "*The group was silenced for 5 minute!*",
-            "6MUTE": "*The group was silenced for 6 minute!*",
-            "7MUTE": "*The group was silenced for 7 minute!*",
-            "8MUTE": "*The group was silenced for 8 minute!*",
-            "9MUTE": "*The group was silenced for 9 minute!*",
-            "10MUTE": "*The group was silenced for 10 minute!*",
-            "11MUTE": "*The group was silenced for 11 minute!*",
-            "12MUTE": "*The group was silenced for 12 minute!*",
-            "13MUTE": "*The group was silenced for 13 minute!*",
-            "14MUTE": "*The group was silenced for 14 minute!*",
-            "15MUTE": "*The group was silenced for 15 minute!*",
-            "16MUTE": "*The group was silenced for 16 minute!*",
-            "17MUTE": "*The group was silenced for 17 minute!*",
-            "18MUTE": "*The group was silenced for 18 minute!*",
-            "19MUTE": "*The group was silenced for 19 minute!*",
-            "20MUTE": "*The group was silenced for 20 minute!*",
-            "21MUTE": "*The group was silenced for 21 minute!*",
-            "22MUTE": "*The group was silenced for 22 minute!*",
-            "23MUTE": "*The group was silenced for 23 minute!*",
-            "24MUTE": "*The group was silenced for 24 minute!*",
-            "25MUTE": "*The group was silenced for 25 minute!*",
-            "26MUTE": "*The group was silenced for 26 minute!*",
-            "27MUTE": "*The group was silenced for 27 minute!*",
-            "28MUTE": "*The group was silenced for 28 minute!*",
-            "29MUTE": "*The group was silenced for 29 minute!*",
-            "30MUTE": "*The group was silenced for 30 minute!*",
-            "31MUTE": "*The group was silenced for 31 minute!*",
-            "32MUTE": "*The group was silenced for 32 minute!*",
-            "33MUTE": "*The group was silenced for 33 minute!*",
-            "34MUTE": "*The group was silenced for 34 minute!*",
-            "35MUTE": "*The group was silenced for 35 minute!*",
-            "36MUTE": "*The group was silenced for 36 minute!*",
-            "37MUTE": "*The group was silenced for 37 minute!*",
-            "38MUTE": "*The group was silenced for 38 minute!*",
-            "39MUTE": "*The group was silenced for 39 minute!*",
-            "40MUTE": "*The group was silenced for 40 minute!*",
-            "41MUTE": "*The group was silenced for 41 minute!*",
-            "42MUTE": "*The group was silenced for 42 minute!*",
-            "43MUTE": "*The group was silenced for 43 minute!*",
-            "44MUTE": "*The group was silenced for 44 minute!*",
-            "45MUTE": "*The group was silenced for 45 minute!*",
-            "46MUTE": "*The group was silenced for 46 minute!*",
-            "47MUTE": "*The group was silenced for 47 minute!*",
-            "48MUTE": "*The group was silenced for 48 minute!*",
-            "49MUTE": "*The group was silenced for 49 minute!*",
-            "50MUTE": "*The group was silenced for 50 minute!*",
-            "51MUTE": "*The group was silenced for 51 minute!*",
-            "52MUTE": "*The group was silenced for 52 minute!*",
-            "53MUTE": "*The group was silenced for 53 minute!*",
-            "54MUTE": "*The group was silenced for 54 minute!*",
-            "55MUTE": "*The group was silenced for 55 minute!*",
-            "56MUTE": "*The group was silenced for 56 minute!*",
-            "57MUTE": "*The group was silenced for 57 minute!*",
-            "58MUTE": "*The group was silenced for 58 minute!*",
-            "59MUTE": "*The group was silenced for 59 minute!*",
-            "60MUTE": "*The group was silenced for 1 hour!*",
-            "75MUTE": "*The group was silenced for 1 hour and 15 minutes!*",
-            "90MUTE": "*The group was silenced for 1 hour and 30 minutes!*",
-            "105MUTE": "*The group was silenced for 1 hour and 45 minutes!*",
-            "120MUTE": "*The group was silenced for 2 hour!*",
-            "135MUTE": "*The group was silenced for 2 hour and 15 minutes!*",
-            "150MUTE": "*The group was silenced for 2 hour and 30 minutes!*",
-            "165MUTE": "*The group was silenced for 2 hour and 45 minutes!*",
-            "180MUTE": "*The group was silenced for 3 hour!*",
-            "240MUTE": "*The group was silenced for 4 hour!*",
-            "300MUTE": "*The group was silenced for 5 hour!*",
-            "360MUTE": "*The group was silenced for 6 hour!*",
-            "420MUTE": "*The group was silenced for 7 hour!*",
-            "480MUTE": "*The group was silenced for 8 hour!*",
-            "540MUTE": "*The group was silenced for 9 hour!*",
-            "600MUTE": "*The group was silenced for 10 hour!*",
-            "660MUTE": "*The group was silenced for 11 hour!*",
-            "720MUTE": "*The group was silenced for 12 hour!*",
-            "1DAYMUTE": "*The group was silenced for 1 day!*",
-            "2DAYMUTE": "*The group was silenced for 2 day!*",
-            "3DAYMUTE": "*The group was silenced for 3 day!*",
-            "TÜR": "*Unknown Command!*\n_Minute: 1-59m_\n_Hour: 1-12h_\n_Day: 1d-3d_",
-            "MUTE_DESC": "Turns off group chat. Only admins can send messages!",
-            "MUTE_OPEN": "*Allright Boss! Chat Has Been Opened!*"
-        },
-        "unvoice": {
-            "UV_DESC": "audio sound recording aakki maatan.",
-            "UV_REPLY": "* Audio File reply aakanam!*",
-            "UV_PROC": "```Sound Recordingilekk aakkkunu..```"
-        },
-        "ffmpeg": {
-            "FF_DESC": "paranja ffmpeg filter to the videoyill add aakan.\n⌨️ Example: .ffmpeg fade=in:0:30",
-            "FF_PROC": "effect add aakkunnu.."
-        },
-        "spammer": {
-            "SPAM_DESC": "nirthunath vere spam aakkum.\n⌨️ Example: .spam test",
-            "NEED_WORD": "*kurach words vennam!*",
-            "STOP_SPAMDESC": "spam command nirhum.",
-            "STOP_SPAM": "✅ *Spaming nirthi 🙌🏻! Please wait a moment.*"
-        },
-        "carbon": {
-            "CARBON_DESC": "Uses carbon.sh for Text-to-Image",
-            "CARBON_NEEDWORD": "* Text-to-Imageilekk  translate word venam!*\nExample: ```.carbon test```\nExample: ```.carbon making#test```",
-            "CARBON_WARN": "en alenkil tr use cheyuga!"
-        },
-        "scam": {
-            "SCAM_DESC": "5 mint thettaaya actions srishttikkum.",
-            "SCAM_NOTFOUND": "*oru action enter cheyanam!*\nExisting Types: ```typing & recording & online & stop```",
-            "SCAM_NULL": "```sheriyaya action type cheyyi.```"
-        },
-        "deepai": {
-            "DEEPAI_DESC": "neural networksill run cheyunna AI.",
-            "TEXT": "*AI anenkillum ith vaayikaan enik kayilla , oru text enter cheyyu mister !*",
-            "URL": "*image URL venam!*\n*Example:* https://i.hizliresim.com/nrg50b.jpg"
-        },
-        "ttp": {
-            "TTP_DESC": "text plain text aakunu.",
-            "ATTP_DESC": "text rainbow effectill sticker aaki maattunu.",
-            "NEED_WORD": "*words venam!*",
-            "ANIME_DESC": "penkutti kayyil pidikunna banaril ningal thanna text eythunnu",
-            "TRUMP_DESC": "Trumpinte  tweetillek ningall thanna message aakunnu .",
-            "CHANGE_DESC": "Turns the text into the change my mind poster."
-       },
-       "anime": { 
-            "AN": "random anime pic ayakkunu."
-        },
-        "wallpaper": {
-            "WP": "high resolution wallpapers ayakkunnu."
-        },
-        "webss": {
-            "SS_DESC": "thanna linkil nin screenshot edth ayach therum.",
-            "LİNK": " link thaa mister!"
-        },
-        "voicy": {
-            "NEED_REPLY": "```oru messagin reply theru!```",
-            "ONLY_AUDIO":"```audio file mathram madhi.```",
-            "USAGE": "audio text aakkum.",
-            "TEXT": "*ithan njan kettath!:* \n\n"
-        },
-        "notes": {
-            "NOTES_USAGE": "Shows all your existing notes.",
-            "NO_SAVED": "You don't have any saved notes.",
-            "SAVED": "Here is your saved messages: ",
-            "SAVE_USAGE": "Reply a message and type .save or just use .save <Your note> without replying",
-            "REPLY": "Please provide a note or reply to a message.",
-            "SUCCESSFULLY_ADDED": "Successfully added new note, check your notes with .notes.",
-            "UNSUCCESSFUL": "Could not add note, please try again later or contact WhatsAsena developers.",
-            "DELETE_USAGE": "Deletes *all* your saved notes.",
-            "SUCCESSFULLY_DELETED": "Successfully deleted all your notes."
-        },
-        "instagram": {
-            "NEED_WORD": "*user name entha...?.*",
-            "USAGE": ".insta <userName>",
-            "DESC": "user informations instagramil ninn eduth therum",
-            "LOADING": "user data edukkunu.",
-            "USERNAME": "Username",
-            "NAME": "Name",
-            "BIO": "Biography",
-            "FOLLOWERS": "Followers",
-            "FOLLOWS": "Follows",
-            "ACCOUNT": "Account privacy",
-            "PUBLIC": "Public",
-            "HIDDEN": "Hidden",
-            "NOT_FOUND":"Usere kittiyilla: "
-        },
-        "qrgenerator": {
-             "TEXT": "text enter cheyanam!",
-            "QR_DESC": "text qr code aaki maattunu."
-            
+            "TAGALL_DESC": "ഗ്രൂപ്പ᭄ൽ എല്ലꪆവരെയും ടꪆഗ് ചെയ്യുക.",
+            "ADMİN": "*ഞꪆൻ ഈ ഗ്രൂപ്പ᭄ലെ ഒരു അഡ്‌മ᭄ൻ അല്ല!*",
+            "SCAN": "നൽക᭄യ നമ്പർ വꪆട്ട്ആപ്പ᭄ൽ രജ᭄സ്റ്റർ ചെയ്ത᭄ട്ടുണ്ടോയെന്ന് പര᭄ശോധ᭄ക്കുന്നു.",
+            "NO": "*ഏതെങ്ക᭄ലും ഫോൺ നമ്പർ നൽകുക!*\n*സꪆമ്പ᭄ൾ:* ```.scan 991xxxx```",
+            "SUC": "*അക്കമ᭄ട്ട വ്യക്ത᭄ വꪆട്ട്‌സ്ആപ്പ് ഉപയോഗ᭄ക്കുന്നു! ✅*",
+            "UNSUC": "*അക്കമ᭄ട്ട വ്യക്ത᭄ വꪆട്ട്‌സ്ആപ്പ് ഉപയോഗ᭄ക്കുന്ന᭄ല്ല! ❌*",
+            "TAGADMİN": "ടꪆഗുകൾ ഗ്രൂപ്പ് അഡ്‌മ᭄നുകൾ.",
+            "REPORT": "ഗ്രൂപ്പ് അഡ്‌മ᭄നുകൾക്ക് റ᭄പ്പോർട്ടുകൾ അയയ്‌ക്കുന്നു.",
+            "USER": "=== ```Report``` ===\n\n*ഉപയോക്തꪆവ്:* ",
+            "REASON": "\n*കꪆരണം:* ",
+            "REPLY": "*റ᭄പ്പോർട്ടുചെയ്യꪆനുള്ള ഉപയോക്തꪆവ᭄ന്റെ സന്ദേശത്തോട് ദയവꪆയ᭄ പ്രത᭄കര᭄ക്കുക!*"
         },
         "whois": {
-            "PL_DESC": "alude alenkill groupinte meta data kaanikkunu.",
-            "SUB": "*Groupinte per:* ",
-            "DES": "*Group Description:* ",
-            "OWN": "*Founder:* ",
-            "COD": "*Unique Group Code:* ",
-            "JİD": "*Person JID:* ",
-            "ST": "*Person Status:* "
+            "PL_DESC": "ഗ്രൂപ്പ᭄ന്റെ അല്ലെങ്ക᭄ൽ വ്യക്ത᭄യുടെ മെറ്റꪆഡꪆറ്റ ഡꪆറ്റ പ്രദർശ᭄പ്പ᭄ക്കുന്നു.",
+            "SUB": "*ഗ്രൂപ്പ് പേര്:* ",
+            "DES": "*ഗ്രൂപ്പ് വ᭄വരണം:* ",
+            "OWN": "*സ്ഥꪆപകൻ:* ",
+            "COD": "*അദ്വ᭄തീയ ഗ്രൂപ്പ് കോഡ്:* ",
+            "JİD": "*വ്യക്ത᭄ JID:* ",
+            "ST": "*വ്യക്ത᭄ ന᭄ല:* "
         },
-        "covid": {
-            "COV_DESC": "15 raajyathe covid details kaanikaan.",
-            "NOT": "```ingane or raajyam enik areela \n use: ```\n\n```Country Codes:``` *.covid tr || az || usa || in || cn || nl || pk || ru || de || uk || gr || fr || jp || kz || id*"
+        "log": {
+            "LOG": "ന᭄ങ്ങളുടെ സ്വകꪆര്യ നമ്പറ᭄ലേക്ക് ന᭄ങ്ങൾ മറുപട᭄ നൽകുന്ന സന്ദേശം സംരക്ഷ᭄ക്കുന്നു.",
+            "REPLY": "*ഏത് സന്ദേശത്ത᭄നും മറുപട᭄ നൽകുക!*",
+            "ANIM": "ചല᭄ക്കുന്ന സ്റ്റ᭄ക്കറുകളെ പ᭄ന്തുണയ്‌ക്കുന്ന᭄ല്ല!",
+            "HEAD": "```===== [LOGGED MESSAGE] =====```\n\n",
+            "USER": " ഉപയോക്തൃ നമ്പറ᭄ൽ ന᭄ന്ന് \n",
+            "FROM": " ID ഉള്ള ഗ്രൂപ്പ᭄ൽ ന᭄ന്ന്, ",
+            "MSG": "സന്ദേശം: \n\n",
+            "SUC": "*സന്ദേശം വ᭄ജയകരമꪆയ᭄ LOG ലേക്ക് സംരക്ഷ᭄ച്ചു!*"
         },
-        "lyrics": {
-            "LY_DESC": "paattinte lyrics kandethaan.",
-            "NEED": "```paattinte per parayyi!```",
-            "SLY": "Lyrics:",
-            "AUT": "Song Owner:",
-            "BUL": "Founded Song:",
-            "ARAT": "Searched Song:"
+        "updater": {
+            "UPDATER_DESC": "പുത᭄യ അപ്ഡേറ്റ് ഉണ്ടോ എന്ന് പര᭄ശോധ᭄ക്കുന്നു.",
+            "UPDATE": "*ബോട്ട് പൂർണമꪆയും പുത᭄യതꪆണ്!*",
+            "NEW_UPDATE": "*ഒരു അപ്ഡേഷൻ ഉണ്ട്!*\n\nChanges:\n```",
+            "UPDATE_NOW_DESC": "ഇത് അപ്‌ഡേറ്റുകൾ നൽകുന്നു.",
+            "UPDATING": "_അപ്ഡേറ്റ് ചെയ്യുന്നു..._",
+            "INVALID_HEROKU": "*❌ സെർവർ ഡേറ്റꪆ തന്ന᭄ര᭄ക്കുന്നത് തെറ്റꪆണ്!*",
+            "UPDATED": "✅ വ᭄ജയകരമꪆയ᭄ അപ്ഡേറ്റ് ചെയ്തു!*",
+            "UPDATED_LOCAL": "*✅ വ᭄ജയകരമꪆയ᭄ അപ്ഡേറ്റ് ചെയ്തു! *\n_റീസ്റ്റꪆർട്ട് ചെയ്തꪆൽ മꪆറ്റങ്ങൾ  ഉപയോഗ᭄ക്കꪆം._",
+            "AFTER_UPDATE": "*💬 Liza Mwol  പുനരꪆരംഭ᭄ക്കുന്നു!*",
+            "IN_AF": "```HEROKU_APP_NAME, app name``` *എന്നത᭄ന് തുല്യമꪆണെന്ന് ദയവꪆയ᭄ ഉറപ്പുവരുത്തുക.*\n*ഈ രണ്ട് മൂല്യങ്ങളും തുല്യമꪆണെങ്ക᭄ൽ, ദയവꪆയ᭄ HEROKU_API_KEY മꪆറ്റുക!*\n\n_ഈ ക്രമീകരണങ്ങൾ ആക്സസ് ചെയ്യുന്നത᭄ന് Heroku >> App >> Settings >> Reavel Config Vars ന᭄ങ്ങളുടെ ഘട്ടങ്ങൾ പꪆല᭄ക്കുക._\n_ന᭄ങ്ങളുടെ API കീ പുതുക്കുന്നത᭄ന് Heroku >> Account >> API Key വ᭄ഭꪆഗത്ത᭄ൽ ന᭄ന്ന് പുതുക്ക᭄യ ശേഷം, പഴയ API കീ ഉപയോഗ᭄ച്ച് അത് മꪆറ്റ᭄സ്ഥꪆപ᭄ക്കുക._"
+        },
+        "weather": {
+            "WEATHER_DESC": "കꪆലꪆവസ്ഥ കꪆണ᭄ക്കുന്നു.",
+            "NEED_LOCATION": "* ദയവꪆയ᭄ ഒരു സ്ഥലം എഴുതുക!*\n*ഉദꪆഹരണo:* ```.weather Thrissur```",
+            "LOCATION": "സ്ഥലം",
+            "TEMP": "തꪆപന᭄ല",
+            "DESC": "വ᭄വരണം",
+            "HUMI": "ഈർപ്പം",
+            "WIND": "കꪆറ്റ᭄ന്റെ വേഗത",
+            "CLOUD": "മേഘം",
+            "NOT_FOUND": "```ഈ പേര᭄ലുള്ള ഒരു നഗരം എന᭄ക്ക് കണ്ടെത്തꪆൻ കഴ᭄ഞ്ഞ᭄ല്ല. 😖```"
+        },
+        "web": {
+            "SPEEDTEST_DESC": "ഡൗൺലോഡ᭄ങ്ങ് അപ്‌ലോഡ്  വേഗത കണക്കുകൂട്ടുന്നു",
+            "SPEEDTESTING": "```നെറ്റ്‌വർക്ക് വേഗത പര᭄ശോധ᭄ക്കുന്നു...```",
+            "SPEEDTEST_RESULT": "*വേഗത   പരീക്ഷ കഴ᭄ഞ്ഞു!*",
+            "UPLOAD": "അപ്‌ലോഡ്",
+            "CALC": "ലള᭄തമꪆയ ഗണ᭄ത പ്രവർത്തനങ്ങൾ നടത്തുന്നു.",
+            "SUC": "*കണക്കുകൂട്ടൽ പൂർത്ത᭄യꪆയ᭄ ✅*\n*ഫലമꪆയ᭄:* ",
+            "UNSUC": "*കണക്കുകൂട്ടൽ പരꪆജയപ്പെട്ടു ❌*\n*പ᭄ശക്:* \n",
+            "VALİD": "*ബꪆധകമꪆയ രീത᭄യ᭄ൽ ഉപയോഗ᭄ക്കുക!* \n*.calc 1 + 2*\n*.calc 3 x 5*\n*.calc 10 / 5*\n*.calc 5 - 2*",
+            "DOWNLOAD": "ഡൗൺലോഡ്",
+            "PING_DESC": "പꪆക്കറ്റ് വേഗത.",
+            "URL": "ദൈർഘ്യമേറ᭄യ ല᭄ങ്ക് ചെറുതꪆക്കുക."
+        },
+        "conventer": {
+            "MP4TOAUDİO_DESC": "വീഡ᭄യോയെ ശബ്‌ദത്ത᭄ലേക്ക് പര᭄വർത്തനം ചെയ്യുന്നു.",
+            "MP4TOAUDİO_NEEDREPLY": "*ന᭄ങ്ങൾ വീഡ᭄യോയോട് പ്രത᭄കര᭄ക്കണം!*",
+            "MP4TOAUDİO": "```വീഡ᭄യോ ഓഡ᭄യോയ᭄ലേക്ക് പര᭄വർത്തനം ചെയ്‌തു..```",
+            "STİCKER_DESC": "ഇത് ഒരു സ്റ്റ᭄ക്കർ ഫോട്ടോയ᭄ലേക്ക് പര᭄വർത്തനം ചെയ്യുന്നു..",
+            "ANİMATE": "```ആന᭄മേറ്റുചെയ്‌ത സ്റ്റ᭄ക്കർ വീഡ᭄യോയ᭄ലേക്ക് പര᭄വർത്തനം ചെയ്യുന്നു..```",
+            "STİCKER_NEEDREPLY": "*ന᭄ങ്ങൾ ഒരു സ്റ്റ᭄ക്കറ᭄ന് മറുപട᭄ നൽകണം*",
+            "ANİM_STİCK": "ആന᭄മേറ്റുചെയ്‌ത സ്റ്റ᭄ക്കറുകൾ വീഡ᭄യോയ᭄ലേക്ക് പര᭄വർത്തനം ചെയ്യുന്നു.",
+            "STİCKER": "```ഒരു സ്റ്റ᭄ക്കർ ഫോട്ടോയ᭄ലേക്ക് പര᭄വർത്തനം ചെയ്യുന്നു..```",
+            "XMEDİA_DESC": "25 ലധ᭄കം മീഡ᭄യ ഉപകരണങ്ങളുള്ള ഒരു പ്ലഗ᭄ൻ ആണ᭄ത്.",
+            "T_FALSE": "```❌ തെറ്റꪆയ TBlend പ്രഭꪆവം നൽക᭄!```\n```🔎 ന᭄ലവ᭄ലുള്ള കമꪆൻഡുകൾ:```\n\n*$dodge* - Applies a pink color filter to the video.\n*$multiply* - Applies a green color filter to the video.\n*$grainmerge* - Increases the contrast of the video.\n*$and* - Applies black lightning effect according to the speed of the video.\n*$or* - Applies a white lightning effect according to the speed of the video.\n*$burn* - Applies green contrast to video.\n*$difference* - Shows the differences by applying green relief to the video.\n*$grainextract* - Shows the differences by applying gray relief to the video.\n*$divide* - Demonstrates the differences by applying a pink relief to the video.\n*$xor* - Applies both green relief and lightning effect to video.\n*$hardmix* - Mixes the colors of the video into a yellow and red tone.\n*$negation* - Turns the dynamics of the video to pink.",
+            "T_NOT": "```💭 ന᭄ങ്ങൾക്ക് ഏതെങ്ക᭄ലും TBlend ഇഫക്റ്റുകൾ നൽകേണ്ടതുണ്ട്!```\n```🔎 ന᭄ലവ᭄ലുള്ള കമꪆൻഡുകൾ:```\n\n*$dodge* - Applies a pink color filter to the video.\n*$multiply* - Applies a green color filter to the video.\n*$grainmerge* - Increases the contrast of the video.\n*$and* - Applies black lightning effect according to the speed of the video.\n*$or* - Applies a white lightning effect according to the speed of the video.\n*$burn* - Applies green contrast to video.\n*$difference* - Shows the differences by applying green relief to the video.\n*$grainextract* - Shows the differences by applying gray relief to the video.\n*$divide* - Demonstrates the differences by applying a pink relief to the video.\n*$xor* - Applies both green relief and lightning effect to video.\n*$hardmix* - Mixes the colors of the video into a yellow and red tone.\n*$negation* - Turns the dynamics of the video to pink.",
+            "T_DESC": "ത᭄രഞ്ഞെടുത്ത ട᭄ബ്ലെൻഡ് ഇഫക്റ്റ് വീഡ᭄യോകള᭄ൽ പ്രയോഗ᭄ക്കുന്നു." 
+        },
+        "unvoice": {
+            "UV_DESC": "ഓഡ᭄യോയെ ശബ്‌ദ റെക്കോർഡ᭄ംഗ᭄ലേക്ക് പര᭄വർത്തനം ചെയ്യുന്നു.",
+            "UV_REPLY": "*ന᭄ങ്ങൾ ഒരു ഓഡ᭄യോയ്ക്ക് മറുപട᭄ നൽകണം!*",
+            "UV_PROC": "```ശബ്‌ദ റെക്കോർഡ᭄ംഗ᭄ലേക്ക് പര᭄വർത്തനം ചെയ്യുന്നു..```"
+        },
+        "ffmpeg": {
+            "FF_DESC": "ആവശ്യമുള്ള ffmpeg ഇഫക്റ്റ് വീഡ᭄യോയ᭄ൽ പ്രയോഗ᭄ക്കുന്നു.\n⌨️ ഉദꪆഹരണം: .ffmpeg fade=in:0:30",
+            "FF_PROC": "പ്രഭꪆവം പ്രയോഗ᭄ക്കുന്നു.."
+        },
+        "mute": {
+            "BİRMUTE": "ഗ്രൂപ്പ് ന᭄ശബ്ദമꪆക്ക᭄  1 മ᭄ന᭄റ്റുകൾക്ക്!",
+            "İKİMUTE": "ഗ്രൂപ്പ് ന᭄ശബ്ദമꪆക്ക᭄  2 മ᭄ന᭄റ്റുകൾക്ക്!",
+            "ÜÇMUTE": "ഗ്രൂപ്പ് ന᭄ശബ്ദമꪆക്ക᭄  3 മ᭄ന᭄റ്റുകൾക്ക്!",
+            "DÖRTMUTE": "ഗ്രൂപ്പ് ന᭄ശബ്ദമꪆക്ക᭄  4 മ᭄ന᭄റ്റുകൾക്ക്!",
+            "BEŞMUTE": "ഗ്രൂപ്പ് ന᭄ശബ്ദമꪆക്ക᭄  5 മ᭄ന᭄റ്റുകൾക്ക്!",
+            "ALTIMUTE": "ഗ്രൂപ്പ് ന᭄ശബ്ദമꪆക്ക᭄  6 മ᭄ന᭄റ്റുകൾക്ക്!",
+            "YEDİMUTE": "ഗ്രൂപ്പ് ന᭄ശബ്ദമꪆക്ക᭄  7 മ᭄ന᭄റ്റുകൾക്ക്!",
+            "SEKİZMUTE": "ഗ്രൂപ്പ് ന᭄ശബ്ദമꪆക്ക᭄  8 മ᭄ന᭄റ്റുകൾക്ക്!",
+            "DOKUZMUTE": "ഗ്രൂപ്പ് ന᭄ശബ്ദമꪆക്ക᭄  9 മ᭄ന᭄റ്റുകൾക്ക്!",
+            "ONMUTE": "ഗ്രൂപ്പ് ന᭄ശബ്ദമꪆക്ക᭄  10 മ᭄ന᭄റ്റുകൾക്ക്!",
+            "ONBİRMUTE": "ഗ്രൂപ്പ് ന᭄ശബ്ദമꪆക്ക᭄  11 മ᭄ന᭄റ്റുകൾക്ക്!",
+            "ONİKİMUTE": "ഗ്രൂപ്പ് ന᭄ശബ്ദമꪆക്ക᭄  12 മ᭄ന᭄റ്റുകൾക്ക്!",
+            "ONÜÇMUTE": "ഗ്രൂപ്പ് ന᭄ശബ്ദമꪆക്ക᭄  13 മ᭄ന᭄റ്റുകൾക്ക്!",
+            "ONDÖRTMUTE": "ഗ്രൂപ്പ് ന᭄ശബ്ദമꪆക്ക᭄  14 മ᭄ന᭄റ്റുകൾക്ക്!",
+            "ONBEŞMUTE": "ഗ്രൂപ്പ് ന᭄ശബ്ദമꪆക്ക᭄  15 മ᭄ന᭄റ്റുകൾക്ക്!",
+            "ONALTIMUTE": "ഗ്രൂപ്പ് ന᭄ശബ്ദമꪆക്ക᭄  16 മ᭄ന᭄റ്റുകൾക്ക്!",
+            "ONYEDİMUTE": "ഗ്രൂപ്പ് ന᭄ശബ്ദമꪆക്ക᭄  17 മ᭄ന᭄റ്റുകൾക്ക്!",
+            "ONSEKİZMUTE": "ഗ്രൂപ്പ് ന᭄ശബ്ദമꪆക്ക᭄  18 മ᭄ന᭄റ്റുകൾക്ക്!",
+            "ONDOKUZMUTE": "ഗ്രൂപ്പ് ന᭄ശബ്ദമꪆക്ക᭄  19 മ᭄ന᭄റ്റുകൾക്ക്!",
+            "YİRMİMUTE": "ഗ്രൂപ്പ് ന᭄ശബ്ദമꪆക്ക᭄  20 മ᭄ന᭄റ്റുകൾക്ക്!",
+            "YİRMİBİRMUTE": "ഗ്രൂപ്പ് ന᭄ശബ്ദമꪆക്ക᭄  21 മ᭄ന᭄റ്റുകൾക്ക്!",
+            "YİRMİİKİMUTE": "ഗ്രൂപ്പ് ന᭄ശബ്ദമꪆക്ക᭄  22 മ᭄ന᭄റ്റുകൾക്ക്!",
+            "YİRMİÜÇMUTE": "ഗ്രൂപ്പ് ന᭄ശബ്ദമꪆക്ക᭄  23 മ᭄ന᭄റ്റുകൾക്ക്!",
+            "YİRMİDÖRTMUTE": "ഗ്രൂപ്പ് ന᭄ശബ്ദമꪆക്ക᭄  24 മ᭄ന᭄റ്റുകൾക്ക്!",
+            "YİRMİBEŞMUTE": "ഗ്രൂപ്പ് ന᭄ശബ്ദമꪆക്ക᭄  25 മ᭄ന᭄റ്റുകൾക്ക്!",
+            "YİRMİALTIMUTE": "ഗ്രൂപ്പ് ന᭄ശബ്ദമꪆക്ക᭄  26 മ᭄ന᭄റ്റുകൾക്ക്!",
+            "YİRMİYEDİMUTE": "ഗ്രൂപ്പ് ന᭄ശബ്ദമꪆക്ക᭄  27 മ᭄ന᭄റ്റുകൾക്ക്!",
+            "YİRMİSEKİZMUTE": "ഗ്രൂപ്പ് ന᭄ശബ്ദമꪆക്ക᭄  28 മ᭄ന᭄റ്റുകൾക്ക്!",
+            "YİRMİDOKUZMUTE": "ഗ്രൂപ്പ് ന᭄ശബ്ദമꪆക്ക᭄  29 മ᭄ന᭄റ്റുകൾക്ക്!",
+            "OTUZMUTE": "ഗ്രൂപ്പ് ന᭄ശബ്ദമꪆക്ക᭄  30 മ᭄ന᭄റ്റുകൾക്ക്!",
+            "OTUZBİRMUTE": "ഗ്രൂപ്പ് ന᭄ശബ്ദമꪆക്ക᭄  31 മ᭄ന᭄റ്റുകൾക്ക്!",
+            "OTUZİKİMUTE": "ഗ്രൂപ്പ് ന᭄ശബ്ദമꪆക്ക᭄  32 മ᭄ന᭄റ്റുകൾക്ക്!",
+            "OTUZÜÇMUTE": "ഗ്രൂപ്പ് ന᭄ശബ്ദമꪆക്ക᭄  33 മ᭄ന᭄റ്റുകൾക്ക്!",
+            "OTUZDÖRTMUTE": "ഗ്രൂപ്പ് ന᭄ശബ്ദമꪆക്ക᭄  34 മ᭄ന᭄റ്റുകൾക്ക്!",
+            "OTUZBEŞMUTE": "ഗ്രൂപ്പ് ന᭄ശബ്ദമꪆക്ക᭄  35 മ᭄ന᭄റ്റുകൾക്ക്!",
+            "OTUZALTIMUTE": "ഗ്രൂപ്പ് ന᭄ശബ്ദമꪆക്ക᭄  36 മ᭄ന᭄റ്റുകൾക്ക്!",
+            "OTUZYEDİMUTE": "ഗ്രൂപ്പ് ന᭄ശബ്ദമꪆക്ക᭄  37 മ᭄ന᭄റ്റുകൾക്ക്!",
+            "OTUZSEKİZMUTE": "ഗ്രൂപ്പ് ന᭄ശബ്ദമꪆക്ക᭄  38 മ᭄ന᭄റ്റുകൾക്ക്!",
+            "OTUZDOKUZMUTE": "ഗ്രൂപ്പ് ന᭄ശബ്ദമꪆക്ക᭄  39 മ᭄ന᭄റ്റുകൾക്ക്!",
+            "KIRKMUTE": "ഗ്രൂപ്പ് ന᭄ശബ്ദമꪆക്ക᭄  40 മ᭄ന᭄റ്റുകൾക്ക്!",
+            "KIRKBİRMUTE": "ഗ്രൂപ്പ് ന᭄ശബ്ദമꪆക്ക᭄  41 മ᭄ന᭄റ്റുകൾക്ക്!",
+            "KIRKİKİMUTE": "ഗ്രൂപ്പ് ന᭄ശബ്ദമꪆക്ക᭄  42 മ᭄ന᭄റ്റുകൾക്ക്!",
+            "KIRKÜÇMUTE": "ഗ്രൂപ്പ് ന᭄ശബ്ദമꪆക്ക᭄  43 മ᭄ന᭄റ്റുകൾക്ക്!",
+            "KIRKDÖRTMUTE": "ഗ്രൂപ്പ് ന᭄ശബ്ദമꪆക്ക᭄  44 മ᭄ന᭄റ്റുകൾക്ക്!",
+            "KIRKBEŞMUTE": "ഗ്രൂപ്പ് ന᭄ശബ്ദമꪆക്ക᭄  45 മ᭄ന᭄റ്റുകൾക്ക്!",
+            "KIRKALTIMUTE": "ഗ്രൂപ്പ് ന᭄ശബ്ദമꪆക്ക᭄  46 മ᭄ന᭄റ്റുകൾക്ക്!",
+            "KIRKYEDİMUTE": "ഗ്രൂപ്പ് ന᭄ശബ്ദമꪆക്ക᭄  47 മ᭄ന᭄റ്റുകൾക്ക്!",
+            "KIRKSEKİZMUTE": "ഗ്രൂപ്പ് ന᭄ശബ്ദമꪆക്ക᭄  48 മ᭄ന᭄റ്റുകൾക്ക്!",
+            "KIRKDOKUZMUTE": "ഗ്രൂപ്പ് ന᭄ശബ്ദമꪆക്ക᭄  49 മ᭄ന᭄റ്റുകൾക്ക്!",
+            "ELLİMUTE": "ഗ്രൂപ്പ് ന᭄ശബ്ദമꪆക്ക᭄  50 മ᭄ന᭄റ്റുകൾക്ക്!",
+            "ELLİBİRMUTE": "ഗ്രൂപ്പ് ന᭄ശബ്ദമꪆക്ക᭄  51 മ᭄ന᭄റ്റുകൾക്ക്!",
+            "ELLİİKİMUTE": "ഗ്രൂപ്പ് ന᭄ശബ്ദമꪆക്ക᭄  52 മ᭄ന᭄റ്റുകൾക്ക്!",
+            "ELLİÜÇMUTE": "ഗ്രൂപ്പ് ന᭄ശബ്ദമꪆക്ക᭄  53 മ᭄ന᭄റ്റുകൾക്ക്!",
+            "ELLİDÖRTMUTE": "ഗ്രൂപ്പ് ന᭄ശബ്ദമꪆക്ക᭄  54 മ᭄ന᭄റ്റുകൾക്ക്!",
+            "ELLİBEŞMUTE": "ഗ്രൂപ്പ് ന᭄ശബ്ദമꪆക്ക᭄  55 മ᭄ന᭄റ്റുകൾക്ക്!",
+            "ELLİALTIMUTE": "ഗ്രൂപ്പ് ന᭄ശബ്ദമꪆക്ക᭄  56 മ᭄ന᭄റ്റുകൾക്ക്!",
+            "ELLİYEDİMUTE": "ഗ്രൂപ്പ് ന᭄ശബ്ദമꪆക്ക᭄  57 മ᭄ന᭄റ്റുകൾക്ക്!",
+            "ELLİSEKİZMUTE": "ഗ്രൂപ്പ് ന᭄ശബ്ദമꪆക്ക᭄  58 മ᭄ന᭄റ്റുകൾക്ക്!",
+            "ELLİDOKUZMUTE": "ഗ്രൂപ്പ് ന᭄ശബ്ദമꪆക്ക᭄  59 മ᭄ന᭄റ്റുകൾക്ക്!",
+            "SAATBİRMUTE": "ഗ്രൂപ്പ് ന᭄ശബ്ദമꪆക്ക᭄  1 മണ᭄ക്കൂർ!",
+            "SAATİKİMUTE": "ഗ്രൂപ്പ് ന᭄ശബ്ദമꪆക്ക᭄  2 മണ᭄ക്കൂർ!",
+            "SAATÜÇMUTE": "ഗ്രൂപ്പ് ന᭄ശബ്ദമꪆക്ക᭄  3 മണ᭄ക്കൂർ!",
+            "SAATDÖRTMUTE": "ഗ്രൂപ്പ് ന᭄ശബ്ദമꪆക്ക᭄  4 മണ᭄ക്കൂർ!",
+            "SAATBEŞMUTE": "ഗ്രൂപ്പ് ന᭄ശബ്ദമꪆക്ക᭄  5 മണ᭄ക്കൂർ!",
+            "SAATALTIMUTE": "ഗ്രൂപ്പ് ന᭄ശബ്ദമꪆക്ക᭄  6 മണ᭄ക്കൂർ!",
+            "SAATYEDİMUTE": "ഗ്രൂപ്പ് ന᭄ശബ്ദമꪆക്ക᭄  7 മണ᭄ക്കൂർ!",
+            "SAATSEKİZMUTE": "ഗ്രൂപ്പ് ന᭄ശബ്ദമꪆക്ക᭄  8 മണ᭄ക്കൂർ!",
+            "SAATDOKUZMUTE": "ഗ്രൂപ്പ് ന᭄ശബ്ദമꪆക്ക᭄  9 മണ᭄ക്കൂർ!",
+            "SAATONMUTE": "ഗ്രൂപ്പ് ന᭄ശബ്ദമꪆക്ക᭄  10 മണ᭄ക്കൂർ!",
+            "SAATONBİRMUTE": "ഗ്രൂപ്പ് ന᭄ശബ്ദമꪆക്ക᭄  11 മണ᭄ക്കൂർ!",
+            "SAATONİKİMUTE": "ഗ്രൂപ്പ് ന᭄ശബ്ദമꪆക്ക᭄  12 മണ᭄ക്കൂർ!",
+            "GÜNBİRMUTE": "ഗ്രൂപ്പ് ന᭄ശബ്ദമꪆക്ക᭄  1 ദ᭄വസം!",
+            "GÜNİKİMUTE": "ഗ്രൂപ്പ് ന᭄ശബ്ദമꪆക്ക᭄  2 ദ᭄വസം!",
+            "GÜNÜÇMUTE": "ഗ്രൂപ്പ് ന᭄ശബ്ദമꪆക്ക᭄  3 ദ᭄വസം!",
+            "TÜR": "അറ᭄യꪆത്ത ഉത്തരവ്!\n_മ᭄ന᭄റ്റുകൾക്ക്: 1-59m_\n_മണ᭄ക്കൂർ: 1-12h_\n_ദ᭄വസം: 1d-3d_",
+            "MUTE_DESC": "ഗ്രൂപ്പ᭄ൽ ഇന᭄ അഡ്മ᭄ന് മꪆത്രം മെസ്സേജ് അയക്കꪆം!",
+            "MUTE_OPEN": "```ഗ്രൂപ്പ് ചꪆറ്റ് ശബ്ദമꪆക്ക᭄!```"
+        },
+        "spammer": {
+            "SPAM_DESC": "ന᭄ങ്ങൾ ഇത് ന᭄ർത്തുന്നത് വരെ ഇത് സ്പꪆം ചെയ്യുന്നു.\n⌨️ ഉദꪆഹരണം: .spam test",
+            "NEED_WORD": "*ന᭄ങ്ങൾ വꪆക്കുകൾ എഴുതണം!*",
+            "STOP_SPAMDESC": "സ്പꪆം കമꪆൻഡ് ന᭄ർത്തുന്നു.",
+            "STOP_SPAM": "✅ *സ്പꪆം വ᭄ജയകരമꪆയ᭄ ന᭄ർത്ത᭄! ദയവꪆയ᭄ ഒരു ന᭄മ᭄ഷം കꪆത്ത᭄ര᭄ക്കുക.*",
+            "ST_DESC": "മറുപട᭄ നൽക᭄യ ഫോട്ടോയോ വീഡ᭄യോയോ സ്റ്റ᭄ക്കꪆയ᭄ പര᭄വർത്തനം ചെയ്‌ത് സ്‌പꪆമꪆയ᭄ അയയ്‌ക്കുക.",
+            "ST_ST": "```സ്‌റ്റൈക്കറോട് പ്രത᭄കര᭄ക്കരുത്!```\n```വീഡ᭄യോയ്‌ക്കോ ഫോട്ടോയ്‌ക്കോ മꪆത്രം മറുപട᭄ നൽകുക!```",
+            "ST_NEED": "```ഏതെങ്ക᭄ലും വീഡ᭄യോയോടോ ഫോട്ടോയോടോ ന᭄ങ്ങൾ പ്രത᭄കര᭄ക്കണം!```",
+            "AU_DESC": "ഉത്തരം നൽക᭄യ ശബ്‌ദം സ്‌പꪆമꪆയ᭄ അയയ്‌ക്കുന്നു.",
+            "AU_REP": "```ഓഡ᭄യോ ഫയല᭄നോട് മꪆത്രം പ്രത᭄കര᭄ക്കുക!```",
+            "FOTO_DESC": "മറുപട᭄ നൽക᭄യ ഫോട്ടോ സ്പꪆം ആയ᭄ അയയ്ക്കുന്നു.",
+            "FOTO_FOT": "```ഏതെങ്ക᭄ലും ച᭄ത്രത്തോട് പ്രത᭄കര᭄ക്കുക!```",
+            "VİD_DESC": "മറുപട᭄ നൽക᭄യ വീഡ᭄യോ സ്പꪆം ആയ᭄ അയയ്ക്കുന്നു.",
+            "VİD_NEED": "```ഏത് വീഡ᭄യോയോടും പ്രത᭄കര᭄ക്കുക!```"
+        },
+        "carbon": {
+            "CARBON_DESC": "ഫോട്ടോയുമൊത്തുള്ള വꪆചകം carbon.sh ൽ വ᭄വർത്തനം ചെയ്യുന്നു.",
+            "CARBON_NEEDWORD": "*ദയവꪆയ᭄ ഒരു വꪆചകം എഴുതുക!*\nഉദꪆഹരണം: ```.carbon test```\nഉദꪆഹരണം: ```.carbon Making#Test```",
+            "CARBON_WARN": "TR, EN എന്ന᭄വയ᭄ൽ മꪆത്രം എഴുതുക!"
+        },
+        "scam": {
+            "SCAM_DESC": "വ്യꪆജ പ്രവർത്തനങ്ങൾ സൃഷ്ട᭄ക്കുന്നു.",
+            "SCAM_NOTFOUND": "*ന᭄ങ്ങൾ വ്യꪆജ പ്രവർത്തനം നൽകണം!*\nന᭄ലവ᭄ലുള്ള തരങ്ങൾ: ```typing & recording & online & stop```",
+            "SCAM_NULL": "```തെറ്റꪆയ പ്രവർത്തനം നൽക᭄! ന᭄ലവ᭄ലുള്ള തരങ്ങൾ ഉപയോഗ᭄ക്കുക.```"
+        },
+        "deepai": {
+            "DEEPAI_DESC": "കൃത്ര᭄മ ന്യൂറൽ നെറ്റ്‌വർക്കുകൾ ഉപയോഗ᭄ച്ച് ഏറ്റവും ശക്തമꪆയ കൃത്ര᭄മ ഇന്റല᭄ജൻസ് ഉപകരണങ്ങൾ പ്രവർത്ത᭄പ്പ᭄ക്കുന്നു.",
+            "TEXT": "*ന᭄ങ്ങൾ വꪆചകം നൽകണം! ഞꪆൻ ഒരു ശക്തമꪆയ കൃത്ര᭄മബുദ്ധ᭄യꪆണെങ്ക᭄ലും, എന᭄ക്ക് ന᭄ങ്ങളുടെ ച᭄ന്തകൾ വꪆയ᭄ക്കꪆൻ കഴ᭄യ᭄ല്ല!*",
+            "URL": "*ന᭄ങ്ങൾ ഇമേജ് URL നൽകണം!*\n*ഉദꪆഹരണം:* https://i.hizliresim.com/nrg50b.jpg"
+        },
+        "ttp": {
+            "TTP_DESC": "വꪆചകം പ്ലെയ᭄ൻ പെയ᭄ന്റ᭄ംഗ᭄ലേക്ക് പര᭄വർത്തനം ചെയ്യുന്നു.",
+            "NEED_WORD": "*ന᭄ങ്ങൾ വꪆക്കുകൾ നൽകണം!*",
+            "ANIME_DESC": "ആന᭄മേഷൻ പെൺകുട്ട᭄ കൈവശം വച്ച᭄ര᭄ക്കുന്ന ബꪆനറ᭄നുള്ള᭄ൽ അദ്ദേഹം വꪆചകം എഴുതുന്നു.",
+            "TRUMP_DESC": "ട്രംപ᭄ന്റെ ട്വീറ്റ᭄ലേക്ക് വꪆചകം പര᭄വർത്തനം ചെയ്യുന്നു.",
+            "CHANGE_DESC": "ലേഖനത്തെ change my mind പോസ്റ്ററꪆക്ക᭄ മꪆറ്റുന്നു.",
+            "ATTP_DESC": "വꪆചകം ന᭄റമുള്ള സ്റ്റ᭄ക്കറ᭄ലേക്ക് പര᭄വർത്തനം ചെയ്യുന്നു",
+            "GLOW_DESC": "വꪆചകം ന᭄യോൺ പെയ᭄ന്റ᭄ംഗ᭄ലേക്ക് മꪆറ്റുന്നു."
+        },
+        "wallpaper": {
+            "WP": "വ്യത്യസ്തവും ഉയർന്ന മ᭄ഴ᭄വുള്ളതുമꪆയ വꪆൾപേപ്പർ അയയ്‌ക്കുന്നു."
+        },
+        "webss": {
+            "SS_DESC": "തന്ന᭄ര᭄ക്കുന്ന ല᭄ങ്ക᭄ലെ പേജ᭄ൽ ന᭄ന്ന് ഒരു സ്ക്രീൻഷോട്ട് എടുക്കുന്നു.",
+            "LİNK": "ന᭄ങ്ങൾ ഒരു ല᭄ങ്ക് നൽകണം!"
+        },
+        "voicy": {
+            "NEED_REPLY": "```ഒരു ഉപയോക്തꪆവ᭄ന്റെ സന്ദേശത്തോട് ദയവꪆയ᭄ പ്രത᭄കര᭄ക്കുക!```",
+            "ONLY_AUDIO":"```ഓഡ᭄യോ ഫയലുകൾ മꪆത്രമേ പ᭄ന്തുണയ്ക്കൂ.```",
+            "USAGE": "ശബ്ദത്ത᭄ലെ വꪆക്യങ്ങൾ വꪆചകത്ത᭄ലേക്ക് വ᭄വർത്തനം ചെയ്യുന്നു.",
+            "TEXT": "*ഹേയ്! ഇവ ശബ്ദത്ത᭄ൽ ഞꪆൻ കേട്ടു!:*\n\n"
+        },
+        "notes": {
+            "NOTES_USAGE": "ഇത് ന᭄ങ്ങളുടെ ന᭄ലവ᭄ലുള്ള എല്ലꪆ കുറ᭄പ്പുകളും കꪆണ᭄ക്കുന്നു.",
+            "NO_SAVED": "റെക്കോർഡുചെയ്‌ത കുറ᭄പ്പുകളൊന്നും ന᭄ങ്ങൾ കണ്ടെത്ത᭄യ᭄ല്ല.",
+            "SAVED": "ന᭄ങ്ങൾ റെക്കോർഡുചെയ്‌ത കുറ᭄പ്പുകൾ ഇതꪆ: ",
+            "SAVE_USAGE": "ന᭄ങ്ങൾ മറുപട᭄ നൽക᭄യ സന്ദേശം അല്ലെങ്ക᭄ൽ note ദ്യോഗ᭄ക കുറ᭄പ്പ് റെക്കോർഡുചെയ്യുന്നു.",
+            "REPLY": "ദയവꪆയ᭄ ഒരു സന്ദേശം ഉദ്ധര᭄ക്കുക അല്ലെങ്ക᭄ൽ .save <yournote> ആയ᭄ ഉപയോഗ᭄ക്കുക.",
+            "SUCCESSFULLY_ADDED": "ന᭄ങ്ങളുടെ കുറ᭄പ്പ് വ᭄ജയകരമꪆയ᭄ സംരക്ഷ᭄ച്ചു, .Nnots ടൈപ്പുചെയ്ത് ന᭄ങ്ങളുടെ കുറ᭄പ്പുകൾ ആക്സസ് ചെയ്യꪆൻ കഴ᭄യും.",
+            "UNSUCCESSFUL": "ന᭄ങ്ങളുടെ കുറ᭄പ്പ് സംരക്ഷ᭄ക്കുന്നത᭄ൽ ഞങ്ങൾക്ക് ഒരു പ᭄ശക് നേര᭄ട്ടു, ദയവꪆയ᭄ വീണ്ടും ശ്രമ᭄ക്കുക. പ്രശ്നം ന᭄ലന᭄ൽക്കുകയꪆണെങ്ക᭄ൽ, ദയവꪆയ᭄ വꪆട്സേന ഡവലപ്പർമꪆരുമꪆയ᭄ ബന്ധപ്പെടുക.",
+            "DELETE_USAGE": "ന᭄ങ്ങൾ സംരക്ഷ᭄ച്ച *എല്ലꪆ* കുറ᭄പ്പുകളും ഇല്ലꪆതꪆക്കുന്നു.",
+            "SUCCESSFULLY_DELETED": "ന᭄ങ്ങളുടെ എല്ലꪆ കുറ᭄പ്പുകളും വ᭄ജയകരമꪆയ᭄ ഇല്ലꪆതꪆക്ക᭄."
+        },
+        "instagram": {
+            "NEED_WORD": "*ഏതെങ്ക᭄ലും ഇൻസ്റ്റꪆഗ്രꪆം പോസ്റ്റ് ല᭄ങ്ക് നൽകുക*",
+            "USAGE": ".insta <ഉപയോക്തൃ നꪆമം>",
+            "DESC": "ഇൻസ്റ്റꪆഗ്രꪆമ᭄ൽ ന᭄ന്ന് വീഡ᭄യോകളോ ഫോട്ടോകളോ ഡൗൺലോഡുചെയ്യുന്നു.",
+            "LOADING": "ഉപയോക്തൃ പ്രൊഫൈൽ ലോഡുചെയ്യുന്നു.. കꪆത്ത᭄ര᭄ക്കൂ.",
+            "USERNAME": "ഉപയോക്തൃ നꪆമം",
+            "NAME": "പേര്",
+            "FİX": "*അറ്റകുറ്റപ്പണ᭄ നടത്തുക!*",
+            "BIO": "ജീവചര᭄ത്രം",
+            "FOLLOWERS": "അനുയꪆയ᭄",
+            "FOLLOWS": "ട്രꪆക്ക᭄ംഗ്",
+            "ACCOUNT": "അക്കൗണ്ട് സ്വകꪆര്യത",
+            "PUBLIC": "എല്ലꪆവർക്കുമꪆയ᭄ തുറക്കുക",
+            "HIDDEN": "മറച്ച᭄ര᭄ക്കുന്നു",
+            "NOT_FOUND": "*മീഡ᭄യ കണ്ടെത്ത᭄യ᭄ല്ല*"
         },
         "github": {
-            "GİTHUB_DESC": "Collects github information from the given username.\n⌨️ Example: .github phaticusthiccy",
-            "REPLY": "```You Need To Type Any Username!```",
-            "NOT": "```User not found!```",
-            "FOLLOWERS": "Followers:",
-            "NAME": "Name:",
-            "USERNAME": "Username:",
-            "REPO": "Public Repos:",
-            "BİO": "Biography:",
-            "FOLLOWİNG": "Following:",
-            "COMPANY": "Company:",
-            "BLOG": "Blog:",
-            "MAİL": "Mail Address:",
-            "LOCATİON": "Location:",
-            "GİST": "Public Gists:",
-            "JOİN": "Joining Date:",
-            "HİRE_FALSE": "Cannot Hirable 🚫",
-            "HİRE_TRUE": "Hirable ☑️",
-            "HİRE": "Can s/he Hirable?:",
-            "URL": "Profile URL:",
-            "UPDATE": "Last Update:"
+            "GİTHUB_DESC": "തന്ന᭄ര᭄ക്കുന്ന ഉപയോക്തൃനꪆമത്ത᭄ൽ ന᭄ന്ന് ഗ᭄ത്തബ് വ᭄വരങ്ങൾ ശേഖര᭄ക്കുന്നു.\n⌨️ സꪆമ്പ᭄ൾ: .github phaticusthiccy",
+            "REPLY": "```ന᭄ങ്ങൾ ഏതെങ്ക᭄ലും ഉപയോക്തൃനꪆമം നൽകേണ്ടതുണ്ട്!```",
+            "NOT": "```ഉപയേꪆക്തꪆവ᭄നെ കണ്ടെത്ത᭄യ᭄ല്ല!```",
+            "FOLLOWERS": "അനുയꪆയ᭄കൾ:",
+            "NAME": "പേര്:",
+            "USERNAME": "ഉപയോക്തൃ നꪆമം:",
+            "REPO": "പബ്ല᭄ക് റ᭄പ്പോകൾ:",
+            "BİO": "ജീവചര᭄ത്രം:",
+            "FOLLOWİNG": "പ᭄ന്തുടരുന്നു:",
+            "COMPANY": "കമ്പന᭄:",
+            "BLOG": "ബ്ലോഗ്:",
+            "MAİL": "മെയ᭄ല് വ᭄ലꪆസം:",
+            "LOCATİON": "സ്ഥꪆനം:",
+            "GİST": "പബ്ല᭄ക് ജ᭄സ്റ്റ്ലർ:",
+            "JOİN": "പങ്കെടുക്കുന്ന തീയത᭄:",
+            "HİRE_FALSE": "വꪆടകയ്‌ക്ക് എടുക്കꪆൻ കഴ᭄യ᭄ല്ല 🚫",
+            "HİRE_TRUE": "വꪆടകയ്ക്ക് ☑️",
+            "HİRE": "ഇത് വꪆടകയ്ക്ക് എടുക്കꪆൻ കഴ᭄യുമോ?:",
+            "URL": "പ്രൊഫൈൽ കണക്ഷൻ:",
+            "UPDATE": "അവസꪆന പര᭄ഷ്കꪆരം:"
+        },
+        "tiktok": {
+            "TİKTOK": "ട᭄ക്‌ടോക്ക᭄ൽ ന᭄ന്ന് വീഡ᭄യോ ഡൗൺലോഡുചെയ്യുന്നു.",
+            "NEED": "```ന᭄ങ്ങൾ ഏതെങ്ക᭄ലും ട᭄ക്റ്റോക്ക് ല᭄ങ്ക് നൽകണം!``` \n*സꪆമ്പ᭄ൾ:* ```.tiktok https://vm.tiktok.com/ZSJY27ExT/```",
+            "DOWN": "```മീഡ᭄യ ഡൗൺലോഡുചെയ്യുന്നു..```",
+            "CAPTİON": "വ᭄ശദീകരണം:",
+            "USERNAME": "ഉപയോക്തൃ നꪆമം:",
+            "NAME": "പേര്:",
+            "LİKE": "ലൈക്കുകളുടെ എണ്ണം:",
+            "COMM": "അഭ᭄പ്രꪆയങ്ങളുടെ എണ്ണം:",
+            "VİEW": "കꪆഴ്‌ചകൾ:",
+            "LİNK": "ഉപയോക്തൃ ല᭄ങ്ക്:",
+            "SHARE": "ഷെയറുകളുടെ എണ്ണം:",
+            "MUSİC": "സംഗീതം:",
+            "M_AUT": "സംഗീത ഉടമ:"
+        },
+        "lyrics": {
+            "LY_DESC": "പꪆട്ട᭄ന്റെ വര᭄കൾ കണ്ടെത്തുന്നു",
+            "NEED": "```ന᭄ങ്ങൾ ഏതെങ്ക᭄ലും ഗꪆനം എഴുതണം!```",
+            "SLY": "വര᭄കൾ:",
+            "AUT": "ഗꪆന ഉടമ:",
+            "BUL": "ഗꪆനം കണ്ടെത്ത᭄:",
+            "ARAT": "ത᭄രഞ്ഞ ഗꪆനം:"
+        },
+        "covid": {
+            "COV_DESC": "15 ലധ᭄കം രꪆജ്യങ്ങളുടെ ദൈനംദ᭄ന മൊത്തത്ത᭄ലുള്ള കോവ᭄ഡ് പട്ട᭄ക കꪆണ᭄ക്കുന്നു.",
+            "NOT": "```ക്ഷമ᭄ക്കണം, ഇതുപോലുള്ള ഒരു രꪆജ്യം എന᭄ക്ക് കണ്ടെത്തꪆൻ കഴ᭄ഞ്ഞ᭄ല്ല! ബꪆധകമꪆയ രꪆജ്യ കോഡുകൾ നൽകുക!```\n\n```രꪆജ്യ കോഡുകൾ:``` *.covid tr || az || usa || in || cn || nl || pk || ru || de || uk || gr || fr || jp || kz || id*"
         }
     }
 }
