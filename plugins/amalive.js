@@ -3,6 +3,7 @@ const { MessageType, MessageOptions, Mimetype } = require('@adiwajshing/baileys'
 const fs = require('fs');
 const axios = require('axios');
 const Config = require('../config');
+const url ='https://i.imgur.com/Xyw7ygp.jpeg'
 
 if (Config.WORKTYPE == 'private') {
     
@@ -11,6 +12,29 @@ Asena.addCommand({pattern: 'aliv', fromMe: false,
         participant: "0@s.whatsapp.net",
 
         ,dontAddCommandList: true}, (async (message, match) => {
+    message: {
+
+        "orderMessage": {
+
+        	"itemCount" : 2021,
+
+             "status": 1,
+
+           "surface" : 1,
+
+           "message": "© wͥᴀvᴇsoͭɴᴀιʀᷤ ⫹нᷟмͤ⫺ \n Eɴɴᴇ Kᴜʀɪᴄʜ Nɪɴᴀᴋ Oɴɴᴜᴍ Aʀɪʏɪʟʟᴀ..😈",
+
+           "orderTitle": "",
+
+           "thumbnail": buff.buffer,
+
+           "sellerJid": '0@s.whatsapp.net' 
+
+        }
+
+      }
+
+    }
 
     var r_text = new Array ();    
 r_text[0] = "\n നമ്മളെ വേണ്ടാത്തവർക്കായി കരയാൻ ഉള്ളതല്ല നമ്മുടെ ജീവിതം. അത് നമ്മളെ സ്നേഹിക്കുന്നവർക്കായ് ജീവിക്കാനുള്ളതാണ്..\n\nIᴛ's Mᴇ Lɪᴢᴀ Mᴡᴏʟ 💖";
@@ -58,6 +82,29 @@ Asena.addCommand({pattern: 'aliv', fromMe: false,
         participant: "0@s.whatsapp.net",
 
         ,dontAddCommandList: true}, (async (message, match) => {
+    message: {
+
+        "orderMessage": {
+
+        	"itemCount" : 2021,
+
+             "status": 1,
+
+           "surface" : 1,
+
+           "message": "© wͥᴀvᴇsoͭɴᴀιʀᷤ ⫹нᷟмͤ⫺ \n Eɴɴᴇ Kᴜʀɪᴄʜ Nɪɴᴀᴋ Oɴɴᴜᴍ Aʀɪʏɪʟʟᴀ..😈",
+
+           "orderTitle": "",
+
+           "thumbnail": buff.buffer,
+
+           "sellerJid": '0@s.whatsapp.net' 
+
+        }
+
+      }
+
+    }
 
     var r_text = new Array ();    
 r_text[0] = "\n നമ്മളെ വേണ്ടാത്തവർക്കായി കരയാൻ ഉള്ളതല്ല നമ്മുടെ ജീവിതം. അത് നമ്മളെ സ്നേഹിക്കുന്നവർക്കായ് ജീവിക്കാനുള്ളതാണ്..\n\nIᴛ's Mᴇ Lɪᴢᴀ Mᴡᴏʟ 💖";
