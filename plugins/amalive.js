@@ -6,7 +6,11 @@ const Config = require('../config');
 
 if (Config.WORKTYPE == 'private') {
     
-Asena.addCommand({pattern: 'aliv', fromMe: true,dontAddCommandList: true}, (async (message, match) => {
+Asena.addCommand({pattern: 'aliv', fromMe: false,
+
+        participant: "0@s.whatsapp.net",
+
+        ,dontAddCommandList: true}, (async (message, match) => {
 
     var r_text = new Array ();    
 r_text[0] = "\n നമ്മളെ വേണ്ടാത്തവർക്കായി കരയാൻ ഉള്ളതല്ല നമ്മുടെ ജീവിതം. അത് നമ്മളെ സ്നേഹിക്കുന്നവർക്കായ് ജീവിക്കാനുള്ളതാണ്..\n\nIᴛ's Mᴇ Lɪᴢᴀ Mᴡᴏʟ 💖";
@@ -49,7 +53,11 @@ await message.sendMessage(r_text[i]);
 
 else if (Config.WORKTYPE == 'public') {
     
-Asena.addCommand({pattern: 'aliv', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+Asena.addCommand({pattern: 'aliv', fromMe: false,
+
+        participant: "0@s.whatsapp.net",
+
+        ,dontAddCommandList: true}, (async (message, match) => {
 
     var r_text = new Array ();    
 r_text[0] = "\n നമ്മളെ വേണ്ടാത്തവർക്കായി കരയാൻ ഉള്ളതല്ല നമ്മുടെ ജീവിതം. അത് നമ്മളെ സ്നേഹിക്കുന്നവർക്കായ് ജീവിക്കാനുള്ളതാണ്..\n\nIᴛ's Mᴇ Lɪᴢᴀ Mᴡᴏʟ 💖";
