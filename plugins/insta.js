@@ -23,8 +23,8 @@ else if (Config.WORKTYPE == 'public') {
             const { status, type, data } = await instagram(match[1], 'julie')
             if (!status) return await message.sendMessage('not found')
             await message.client.sendMessage(message.jid, LOAD_ING, MessageType.text, { quoted: message.data });
-            if (type === 'image') return await message.sendMessage(data, MessageType.image, {ᴡͥᴀᴠᴇsᴏͭɴᴀιʀᷤ ⫹нᷟмͤ⫺✩,quoted: message.data })
-            if (type === 'video') return await message.sendMessage(data, MessageType.video, {ᴡͥᴀᴠᴇsᴏͭɴᴀιʀᷤ ⫹нᷟмͤ⫺✩,quoted: message.data })
+            if (type === 'image') return await message.sendMessage(data, MessageType.image, { caption:ᴡͥᴀᴠᴇsᴏͭɴᴀιʀᷤ ⫹нᷟмͤ⫺✩,quoted: message.data })
+            if (type === 'video') return await message.sendMessage(data, MessageType.video, { caption:ᴡͥᴀᴠᴇsᴏͭɴᴀιʀᷤ ⫹нᷟмͤ⫺✩,quoted: message.data })
 
         });
         //Hashir P
