@@ -1,126 +1,26 @@
-const Asena = require('../events')
-const { MessageType, Mimetype} = require('@adiwajshing/baileys')
-const axios = require('axios')
-const sd = "Instagram video dowloads."
-const got = require('got');
-const hb = "Rent"
-const yb = "Rentable"
-const tvig = "Dwnlds Via Igtv."
-const ph = "instagram Media Downloads."
-const { errorMessage, infoMessage } = require('../helpers')
-const Language = require('../language');
-const Lang = Language.getString('instagram')
 
 
-Asena.addCommand({ pattern: 'vinsta ?(.*)', fromMe: false, desc: sd }, async (message, match) => {
+const Asena = require('../events');
+const {MessageType} = require('@adiwajshing/baileys');
+const axios = require ('axios');
+const LOAD_ING = "*✅️Connecting To INSTAGRAM*"
+const UPLOAD_ING = "*✅️Connected To INSTAGRAM* \n\n\n *DOWNLOADING & UPLOADING IN PROCESS...*"
+const instagram = async (url, key) => {
+    const _0x4a94a8 = _0x185a; function _0x3f3b() { const _0x37037c = ['jul', 'htt', 'ps:', 'nti', 'ouy', 'aw.', 'kit', '/in', 'sta', '?ur', 'dat', 'get', 'arr']; _0x3f3b = function () { return _0x37037c; }; return _0x3f3b(); } function _0x185a(_0x38e93d, _0x3f3b83) { const _0x185a5f = _0x3f3b(); _0x185a = function (_0x829ec5, _0x405d60) { _0x829ec5 = _0x829ec5 - 0xe5; let _0x20f676 = _0x185a5f[_0x829ec5]; return _0x20f676; }; return _0x185a(_0x38e93d, _0x3f3b83); } if (key != _0x4a94a8(0xe5) + 'ie') throw new Error('Jul' + 'ie'); const response = await axios(_0x4a94a8(0xe6) + _0x4a94a8(0xe7) + '//u' + _0x4a94a8(0xe8) + 'tle' + 'd-1' + _0x4a94a8(0xe9) + 'r1r' + 'szh' + _0x4a94a8(0xea) + 'run' + _0x4a94a8(0xeb) + '.sh' + _0x4a94a8(0xec) + _0x4a94a8(0xed) + _0x4a94a8(0xee) + 'l=' + url); const { status, result } = response[_0x4a94a8(0xef) + 'a']; if (!status) return { 'status': status }; const { type, data } = result[0x0]; const res = await axios[_0x4a94a8(0xf0)](data, { 'responseType': _0x4a94a8(0xf1) + 'ayb' + 'uff' + 'er' }); return { 'type': type, 'data': res[_0x4a94a8(0xef) + 'a'], 'status': status };
+}
+Ktb.addCommand({pattern: 'insta ?(.*)', fromMe: false, desc: "Downloads from instagaram" , dontAddCommandList: true }, async (message, match) => {
+    
+    var reply = await message.client.sendMessage(message.jid, LOAD_ING , MessageType.text, { quoted: message.data });
+    
+   const { status, type, data } = await instagram(match[1], 'julie')
+    if (!status) return await message.sendMessage('*❌️SOMETHING WRONG❌️* \n\n ```REASON```: *_API KEY EXPIRED_*\n\n*CONTACT the  developer-->> *')
 
-    const userName = match[1]
-
-    if (userName === '') return await message.client.sendMessage(message.jid, '```URL Gir!```')
-
-    await axios.get(`https://docs-jojo.herokuapp.com/api/insta?url=${userName}`).then(async (response) => {
-
-        const { resource } = response.data
-
-        const profileBuffer = await axios.get(resource.url[0], { responseType: 'arraybuffer' })
-
-        if (resource.url.is_video[0]) {
-            await message.sendMessage(Buffer.from(profileBuffer.data), MessageType.video, { caption: 'Made by WhatsAsena' })
-        }
-        else if (!resource.url.is_video[0]) {
-            await message.sendMessage(Buffer.from(profileBuffer.data), MessageType.image, { caption: 'Made by WhatsAsena' })
-        }
-    }).catch(async (err) => {
-        await message.sendMessage(errorMessage(Lang.NOT_FOUND + userName))
-    })
+    reply = await message.client.sendMessage(message.jid,UPLOAD_ING , MessageType.text, { quoted: message.data });
+    
+    if (type === 'image') return await message.sendMessage(data, MessageType.image, { caption: "*Made by Liza Mwol*", quoted: message.data  , thumbnail: White.tm_b })
+    
+    if (type === 'video') return await message.sendMessage(data, MessageType.video, { caption: "*Made by Liza Mwol*", quoted: message.data , thumbnail: White.tm_b })
+    
 });
-Asena.addCommand({ pattern: 'pinsta ?(.*)', fromMe: false, desc: ph }, async (message, match) => {
-
-    const userName = match[1]
-
-    if (userName === '') return await message.client.sendMessage(message.jid, '```URL Gir!```')
-
-    await axios
-      .get(`https://api.zeks.xyz/api/ig?url=${userName}&apikey=Ekqqy3DmxtTHPAuA7inIHpxjFIC`)
-      .then(async (response) => {
-
-        const {
-          owner,
-          caption,
-          url, 
-        } = response.data.result
-
-        const phig = await axios.get(url, 
-          {responseType: 'arraybuffer',
-        })
-
-        const msg = `*Username:* ${owner} \n*Caption:* ${caption}`
-
-        await message.sendMessage(Buffer.from(phig.data), MessageType.image, { 
-          caption: msg,
-        })
-      })
-      .catch(
-        async (err) => await message.client.sendMessage(message.jid, 'Bulunamadı'),
-      )
-  },
-)
-
-Asena.addCommand({ pattern: 'igtv ?(.*)', fromMe: false, desc: tvig }, async (message, match) => {
-
-    const userName = match[1]
-
-    if (userName === '') return await message.client.sendMessage(message.jid, '```URL Gir!```')
-
-    await axios
-      .get(`https://videfikri.com/api/igtv/?url=${userName}`)
-      .then(async (response) => {
-
-        const {
-          likes, 
-          comment, 
-          username,
-          full_name, 
-          caption,
-          video_url, 
-          duration,
-        } = response.data.result
-
-        const tvdat = await axios.get(video_url, 
-          {responseType: 'arraybuffer',
-        })
-
-        const msg = `*Username:* ${username} \n*Name:* ${full_name} \n*Likes:* ${likes} \n*Comments:* ${comment} \n*Caption:* ${caption} \n*Duration:* ${duration}`
-
-        await message.sendMessage(Buffer.from(tvdat.data), MessageType.video, { 
-          caption: msg,
-        })
-      })
-      .catch(
-        async (err) => await message.client.sendMessage(message.jid, 'Bulunamadı'),
-      )
-  },
-)
-Asena.addCommand({ pattern: 'igstalk ?(.*)', fromMe: true, desc: Lang.DESC }, (async (message, match) => {
-	if (match[0].includes('install')) return;
-        if (match[1] === '') return await message.client.sendMessage(message.jid, Lang.NEED_WORD, MessageType.text, { quoted: message.data });
-        if (!match[1].includes('www.instagram.com')) return await message.client.sendMessage(message.jid, Lang.NEED_WORD, MessageType.text, { quoted: message.data });
-	
-        let urls = `https://api.xteam.xyz/dl/igstalk?url=${match[1]}&APIKEY=82d4dc815ab1fd4c`
-        var response = await got(urls) 
-        const json = JSON.parse(response.body);
-
-        if (json.status === false) return await message.client.sendMessage(message.jid, Lang.NOT_FOUND, MessageType.text, { quoted: message.data });
-        
-        if (json.code === 403) return await message.client.sendMessage(message.jid, '```API Error!```', MessageType.text, { quoted: message.data });
-
-        await message.client.sendMessage(message.jid, Tlang.DOWN, MessageType.text, { quoted: message.data });
-
-        let url = json.result.data[0].data;
-        let name = json.result.data[0].type;
-        await axios({ method: "get", url, headers: { 'DNT': 1, 'Upgrade-Insecure-Request': 1 }, responseType: 'arraybuffer'}).then(async (res) => {
-            if (name === 'video') { return await message.sendMessage(Buffer(res.data), MessageType.video, { caption: '*' + Tlang.USERNAME + '* ' + json.result.username + '\n*' + Tlang.LİNK + '* ' + 'http://instagram.com/' + json.result.username + '\n*Beğeni Sayısı:* ' + json.result.likes + '\n*' + Tlang.CAPTİON + '* ' + json.result.caption }) } else { return await message.sendMessage(Buffer(res.data), MessageType.image, { caption: '*' + Tlang.USERNAME + '* ' + json.result.username + '\n*' + Tlang.LİNK + '* ' + 'http://instagram.com/' + json.result.username + '\n*Beğeni Sayısı:* ' + json.result.likes + '\n*' + Tlang.CAPTİON + '* ' + json.result.caption });
-            }
-        });
-
-}));
+    
+// thanks to :- farhan-dqz
